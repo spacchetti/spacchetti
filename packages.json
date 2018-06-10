@@ -130,6 +130,17 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "behaviors": {
+    "dependencies": [
+      "prelude",
+      "effect",
+      "ordered-collections",
+      "filterable",
+      "nullable"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-behaviors.git",
+    "version": "compiler/0.12"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
@@ -160,6 +171,16 @@
     ],
     "repo": "https://github.com/justinwoo/purescript-chanpon.git",
     "version": "v1.0.0"
+  },
+  "choco-pie": {
+    "dependencies": [
+      "prelude",
+      "behaviors",
+      "typelevel-prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-choco-pie.git",
+    "version": "compiler/0.12"
   },
   "colors": {
     "dependencies": [
