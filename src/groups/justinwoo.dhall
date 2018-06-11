@@ -111,4 +111,9 @@ in  { chanpon =
         ]
         "https://github.com/justinwoo/purescript-tortellini.git"
         "v2.0.1"
+    , node-telegram-bot-api =
+        mkPackage
+        [ "strings", "foreign", "aff", "simple-json" ]
+        "git://github.com/justinwoo/purescript-node-telegram-bot-api.git"
+        "v4.0.0"
     }
