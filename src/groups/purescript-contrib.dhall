@@ -13,7 +13,7 @@ in  { aff-coroutines =
         , "maybe"
         , "ordered-collections"
         ]
-        "git://github.com/purescript-contrib/purescript-argonaut-codecs.git"
+        "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
         "v4.0.0"
     , argonaut-core =
         mkPackage

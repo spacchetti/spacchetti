@@ -114,6 +114,6 @@ in  { chanpon =
     , node-telegram-bot-api =
         mkPackage
         [ "strings", "foreign", "aff", "simple-json" ]
-        "git://github.com/justinwoo/purescript-node-telegram-bot-api.git"
+        "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
         "v4.0.0"
     }

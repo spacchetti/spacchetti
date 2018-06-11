@@ -66,7 +66,7 @@
       "maybe",
       "ordered-collections"
     ],
-    "repo": "git://github.com/purescript-contrib/purescript-argonaut-codecs.git",
+    "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
     "version": "v4.0.0"
   },
   "argonaut-core": {
@@ -941,7 +941,7 @@
       "aff",
       "simple-json"
     ],
-    "repo": "git://github.com/justinwoo/purescript-node-telegram-bot-api.git",
+    "repo": "https://github.com/justinwoo/purescript-node-telegram-bot-api.git",
     "version": "v4.0.0"
   },
   "node-url": {
