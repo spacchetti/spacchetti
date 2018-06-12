@@ -19,7 +19,7 @@ in  { chanpon =
         mkPackage
         [ "console", "generics-rep", "prelude", "string-parsers" ]
         "https://github.com/justinwoo/purescript-lenient-html-parser.git"
-        "fix-code-points"
+        "v3.0.1"
     , makkori =
         mkPackage
         [ "functions", "node-http", "prelude", "record" ]

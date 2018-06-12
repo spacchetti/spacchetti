@@ -691,7 +691,7 @@
       "string-parsers"
     ],
     "repo": "https://github.com/justinwoo/purescript-lenient-html-parser.git",
-    "version": "fix-code-points"
+    "version": "v3.0.1"
   },
   "lists": {
     "dependencies": [
