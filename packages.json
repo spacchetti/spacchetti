@@ -887,8 +887,8 @@
       "transformers",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/justinwoo/purescript-node-postgres.git",
-    "version": "0.12"
+    "repo": "https://github.com/epost/purescript-node-postgres.git",
+    "version": "v5.0.0"
   },
   "node-process": {
     "dependencies": [

@@ -3,6 +3,7 @@
 ⫽ ./groups/purescript-web.dhall
 ⫽ ./groups/purescript-node.dhall
 ⫽ ./groups/slamdata.dhall
+⫽ ./groups/lumihq.dhall
 ⫽ ./groups/community.dhall
 ⫽ ./groups/natefaubion.dhall
 ⫽ ./groups/justinwoo.dhall

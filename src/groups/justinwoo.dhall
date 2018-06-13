@@ -35,22 +35,6 @@ in  { chanpon =
         ([] : List Text)
         "https://github.com/justinwoo/purescript-node-he.git"
         "v0.2.0"
-    , node-postgres =
-        mkPackage
-        [ "aff"
-        , "arrays"
-        , "datetime"
-        , "either"
-        , "foldable-traversable"
-        , "foreign"
-        , "integers"
-        , "nullable"
-        , "prelude"
-        , "transformers"
-        , "unsafe-coerce"
-        ]
-        "https://github.com/justinwoo/purescript-node-postgres.git"
-        "0.12"
     , node-sqlite3 =
         mkPackage
         [ "aff", "foreign" ]

@@ -64,6 +64,22 @@ in  { aff-promise =
         ]
         "https://github.com/felixSchl/purescript-pipes.git"
         "v6.0.0"
+    , node-postgres =
+        mkPackage
+        [ "aff"
+        , "arrays"
+        , "datetime"
+        , "either"
+        , "foldable-traversable"
+        , "foreign"
+        , "integers"
+        , "nullable"
+        , "prelude"
+        , "transformers"
+        , "unsafe-coerce"
+        ]
+        "https://github.com/epost/purescript-node-postgres.git"
+        "v5.0.0"
     , prettier =
         mkPackage
         [ "maybe", "prelude" ]
