@@ -1189,8 +1189,8 @@
       "typelevel-prelude",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/justinwoo/purescript-react-basic.git",
-    "version": "0.12"
+    "repo": "https://github.com/lumihq/purescript-react-basic.git",
+    "version": "v1.0.0"
   },
   "record": {
     "dependencies": [

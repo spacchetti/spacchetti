@@ -10,5 +10,5 @@ in  { react-basic =
         , "unsafe-coerce"
         ]
         "https://github.com/lumihq/purescript-react-basic.git"
-        "tbd"
+        "v1.0.0"
     }

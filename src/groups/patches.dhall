@@ -30,15 +30,4 @@ in  { halogen-css =
         [ "prelude", "behaviors", "typelevel-prelude", "record" ]
         "https://github.com/justinwoo/purescript-choco-pie.git"
         "compiler/0.12"
-    , react-basic =
-        mkPackage
-        [ "effect"
-        , "functions"
-        , "nullable"
-        , "record"
-        , "typelevel-prelude"
-        , "unsafe-coerce"
-        ]
-        "https://github.com/justinwoo/purescript-react-basic.git"
-        "0.12"
     }
