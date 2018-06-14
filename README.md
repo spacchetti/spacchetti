@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/justinwoo/spacchetti.svg?branch=master)](https://travis-ci.org/justinwoo/spacchetti)
 
-*Mà ho comprato una scatola di pasta!*
+*Mà, ho comprato una scatola di pasta!*
 
 ![](https://i.imgur.com/roCuNQ9.png)
 
