@@ -1,12 +1,10 @@
-# Package-Sets-EX
+# Spacchetti
 
-Because extreme is always better.
+[![Build Status](https://travis-ci.org/justinwoo/spacchetti.svg?branch=master)](https://travis-ci.org/justinwoo/spacchetti)
 
-[![Build Status](https://travis-ci.org/justinwoo/package-sets-ex.svg?branch=master)](https://travis-ci.org/justinwoo/package-sets-ex)
+*Mà ho comprato una scatola di pasta!*
 
-Not for use by anyone (who doesn't get their hands dirty).
-
-Dhall-driven package sets, made for forking and modifying easily.
+Dhall-driven package sets, made for forking and modifying easily. For hard working people who aren't afraid to roll up their sleeves.
 
 ## The Raisin Deets
 
