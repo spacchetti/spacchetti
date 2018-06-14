@@ -6,7 +6,7 @@
 
 ![](https://i.imgur.com/roCuNQ9.png)
 
-Dhall-driven package sets, made for forking and modifying easily. For hard working people who aren't afraid to roll up their sleeves.
+Dhall-driven package sets, made for forking and modifying easily. Per chi non ha paura di rimboccarsi le maniche (e arrotolare gli spaghetti).
 
 ## The Raisin Deets
 
