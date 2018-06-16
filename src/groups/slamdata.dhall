@@ -48,6 +48,11 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-css.git"
         "v4.0.0"
+    , halogen-css =
+        mkPackage
+        [ "css", "halogen" ]
+        "https://github.com/slamdata/purescript-halogen-css.git"
+        "v8.0.0"
     , dom-indexed =
         mkPackage
         [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]

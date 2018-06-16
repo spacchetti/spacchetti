@@ -577,8 +577,8 @@
       "css",
       "halogen"
     ],
-    "repo": "https://github.com/justinwoo/purescript-halogen-css.git",
-    "version": "compiler/0.12"
+    "repo": "https://github.com/slamdata/purescript-halogen-css.git",
+    "version": "v8.0.0"
   },
   "halogen-vdom": {
     "dependencies": [

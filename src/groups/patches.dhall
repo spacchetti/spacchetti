@@ -1,11 +1,6 @@
     let mkPackage = ./../mkPackage.dhall
 
-in  { halogen-css =
-        mkPackage
-        [ "css", "halogen" ]
-        "https://github.com/justinwoo/purescript-halogen-css.git"
-        "compiler/0.12"
-    , string-parsers =
+in  { string-parsers =
         mkPackage
         [ "arrays"
         , "bifunctors"
