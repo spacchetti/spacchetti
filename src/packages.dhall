@@ -6,5 +6,6 @@
 ⫽ ./groups/lumihq.dhall
 ⫽ ./groups/community.dhall
 ⫽ ./groups/natefaubion.dhall
+⫽ ./groups/paf31.dhall
 ⫽ ./groups/justinwoo.dhall
 ⫽ ./groups/patches.dhall

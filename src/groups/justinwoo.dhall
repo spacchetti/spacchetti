@@ -100,4 +100,9 @@ in  { chanpon =
         [ "strings", "foreign", "aff", "simple-json" ]
         "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
         "v4.0.0"
+    , choco-pie =
+        mkPackage
+        [ "prelude", "event", "typelevel-prelude", "record" ]
+        "https://github.com/justinwoo/purescript-choco-pie.git"
+        "v2.0.0"
     }
