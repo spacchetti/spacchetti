@@ -4,31 +4,19 @@ You probably shouldn't do this.
 
 ## Packages.dhall
 
-Replace the relative paths with some raw github link that points to a certain SHA
-
 ```hs
-    let mkPackage = ./../package-sets-ex/src/mkPackage.dhall
+    let mkPackage =
+          https://raw.githubusercontent.com/justinwoo/spacchetti/190618/src/mkPackage.dhall
 
 in  let overrides =
-          { something =
+          { typelevel-prelude =
               mkPackage
-              [ "aff"
-              , "console"
-              , "prelude"
-              ]
-              "https://github.com/someorg/purescript-something.git"
-              "v0.0.0"
+              [ "proxy", "prelude", "type-equality" ]
+              "https://github.com/justinwoo/purescript-typelevel-prelude.git"
+              "prim-boolean"
           }
 
-in    ./../package-sets-ex/src/groups/purescript.dhall
-    ⫽ ./../package-sets-ex/src/groups/purescript-contrib.dhall
-    ⫽ ./../package-sets-ex/src/groups/purescript-web.dhall
-    ⫽ ./../package-sets-ex/src/groups/purescript-node.dhall
-    ⫽ ./../package-sets-ex/src/groups/slamdata.dhall
-    ⫽ ./../package-sets-ex/src/groups/community.dhall
-    ⫽ ./../package-sets-ex/src/groups/natefaubion.dhall
-    ⫽ ./../package-sets-ex/src/groups/justinwoo.dhall
-    ⫽ ./../package-sets-ex/src/groups/patches.dhall
+in    https://raw.githubusercontent.com/justinwoo/spacchetti/190618/src/packages.dhall
     ⫽ overrides
 ```
 
