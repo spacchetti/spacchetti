@@ -138,6 +138,17 @@
     "repo": "https://github.com/purescript/purescript-bifunctors.git",
     "version": "v4.0.0"
   },
+  "canvas": {
+    "dependencies": [
+      "arraybuffer-types",
+      "effect",
+      "exceptions",
+      "functions",
+      "maybe"
+    ],
+    "repo": "https://github.com/purescript-web/purescript-canvas.git",
+    "version": "v4.0.0"
+  },
   "catenable-lists": {
     "dependencies": [
       "control",
@@ -330,10 +341,13 @@
       "console",
       "effect",
       "filterable",
-      "nullable"
+      "nullable",
+      "unsafe-reference",
+      "js-timers",
+      "now"
     ],
     "repo": "https://github.com/paf31/purescript-event.git",
-    "version": "v1.0.0"
+    "version": "v1.2.4"
   },
   "exceptions": {
     "dependencies": [

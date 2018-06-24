@@ -50,4 +50,9 @@ in  { web-clipboard =
         ]
         "https://github.com/purescript-web/purescript-web-xhr.git"
         "v2.0.0"
+    , canvas =
+        mkPackage
+        [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
+        "https://github.com/purescript-web/purescript-canvas.git"
+        "v4.0.0"
     }
