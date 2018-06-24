@@ -132,6 +132,23 @@ in  { aff-coroutines =
         ]
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
         "v4.0.0"
+    , react =
+        mkPackage
+        [ "effect"
+        , "prelude"
+        , "unsafe-coerce"
+        , "exceptions"
+        , "maybe"
+        , "nullable"
+        , "typelevel-prelude"
+        ]
+        "https://github.com/purescript-contrib/purescript-react.git"
+        "v6.0.0"
+    , react-dom =
+        mkPackage
+        [ "web-dom", "react", "effect" ]
+        "https://github.com/purescript-contrib/purescript-react-dom.git"
+        "v6.0.0"
     , these =
         mkPackage
         [ "gen", "tuples" ]
