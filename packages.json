@@ -1649,5 +1649,16 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v2.0.0"
+  },
+  "yargs": {
+    "dependencies": [
+      "console",
+      "either",
+      "exceptions",
+      "foreign",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paf31/purescript-yargs",
+    "version": "v4.0.0"
   }
 }
