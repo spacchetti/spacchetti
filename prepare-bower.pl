@@ -1,10 +1,37 @@
 #!/usr/bin/perl -w
 
+=head1 prepare-bower.pl
+
+This is a script for preparing a snippet for adding to a Dhall file of Spacchetti package definitions.
+
+See L<the Spachetti repository|https://github.com/justinwoo/spacchetti> for more details.
+
+Usage:
+
+  prepare-bower.pl [package-name]
+
+Example:
+
+  ./prepare-bower.pl yargs
+
+  => yargs = mkPackage
+     [
+       "console",
+       "either",
+       "exceptions",
+       "foreign",
+       "unsafe-coerce"
+     ]
+     "https://github.com/paf31/purescript-yargs.git"
+     "4.0.0"
+
+=cut
+
 my $numArgs = $#ARGV;
 
 if ($numArgs < 0) {
   print "I need one arg for what the bower package name is without the preceding `purescript-`\n";
-  print "e.g. `prepare-mkpkg.pl yargs`";
+  print "e.g. `prepare-bower.pl yargs`";
   exit;
 }
 
