@@ -23,3 +23,4 @@ install:
 script:
   - ./setup.sh
   - psc-package verify
+  - ./verify.pl prelude
