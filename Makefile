@@ -7,4 +7,4 @@ generate:
 	./generate.sh
 
 setup: all
-	./verify-setup.sh
+	./setup.sh
