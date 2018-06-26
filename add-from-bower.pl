@@ -1,5 +1,24 @@
 #!/usr/bin/perl -w
 
+=head1 add-from-bower.pl
+
+This is a script for calling prepare-bower.pl in Spacchetti to add a package definition using mkPackage to a package group.
+
+See L<the Spachetti repository|https://github.com/justinwoo/spacchetti> for more details.
+
+Usage:
+
+  add-from-bower.pl [package-name]
+
+Example:
+
+  ./add-from-bower.pl behaviors
+
+  => ...
+     Wrote new package behaviors to group file src/groups/paf31.dhall
+
+=cut
+
 my $numArgs = $#ARGV;
 
 if ($numArgs < 0) {
