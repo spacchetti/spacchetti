@@ -54,5 +54,12 @@ if (-e $file) {
 
     print "Wrote new package $input to group file $file";
 } else {
-    print "Group file $file does not exist";
+    my $output = "let mkPackage = ./../mkPackage.dhall in  {$result}";
+
+    open my $write, '>', $file or die "Couldn't open file $file";
+    print $write $output;
+    close $write;
+    print `./format.sh`;
+
+    print "Wrote new package $input to group file $file";
 }

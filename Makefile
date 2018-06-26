@@ -5,3 +5,6 @@ format:
 
 generate:
 	./generate.sh
+
+setup:
+	./verify-setup.sh
