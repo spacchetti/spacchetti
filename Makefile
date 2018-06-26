@@ -6,5 +6,5 @@ format:
 generate:
 	./generate.sh
 
-setup:
+setup: all
 	./verify-setup.sh

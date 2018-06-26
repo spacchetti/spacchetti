@@ -42,16 +42,24 @@ unless(-e $json) {
     print `bower info purescript-$input --json > $json`;
 }
 
-my $dependencies = `cat $json | jq '.latest.dependencies' | jq 'keys | map(.[11:])'`;
-my $version = `cat $json | jq '.latest.version'`;
-my $url = `cat $json | jq '.latest.repository.url'`;
+chomp(my $dependencies = `cat $json | jq '.latest.dependencies' | jq 'keys | map(.[11:])'`);
+chomp(my $version = `cat $json | jq '.latest.version'`);
+chomp(my $url = `cat $json | jq '.latest.repository.url'`);
 my $from = 'git:';
 my $to = "https:";
 $url =~ s/$from/$to/;
 
+# bower doesn't believe in telling us the correct tag names
+unless ($version =~ /v/) {
+    $version =~ s/"//g;
+    $version = "\"v$version\"";
+}
+
 my $output = <<END_TEMPLATE;
 $input = mkPackage
-$dependencies$url$version
+$dependencies
+$url
+$version
 END_TEMPLATE
 
 print $output
