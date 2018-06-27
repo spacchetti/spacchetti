@@ -14,7 +14,7 @@ in  { aff-coroutines =
         , "ordered-collections"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v4.0.0"
+        "v4.0.2"
     , argonaut-core =
         mkPackage
         [ "arrays"
@@ -30,7 +30,7 @@ in  { aff-coroutines =
         , "tailrec"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-core.git"
-        "v4.0.0"
+        "v4.0.1"
     , arraybuffer-types =
         mkPackage
         ([] : List Text)
@@ -45,7 +45,7 @@ in  { aff-coroutines =
         mkPackage
         [ "globals", "maybe", "newtype", "prelude", "strings", "tuples" ]
         "https://github.com/purescript-contrib/purescript-form-urlencoded.git"
-        "v4.0.0"
+        "v4.0.1"
     , freet =
         mkPackage
         [ "bifunctors"
@@ -62,7 +62,7 @@ in  { aff-coroutines =
         mkPackage
         [ "either", "prelude", "strings" ]
         "https://github.com/purescript-contrib/purescript-http-methods.git"
-        "v4.0.0"
+        "v4.0.1"
     , js-date =
         mkPackage
         [ "datetime", "exceptions", "foreign", "integers", "now" ]
@@ -72,7 +72,7 @@ in  { aff-coroutines =
         mkPackage
         [ "effect" ]
         "https://github.com/purescript-contrib/purescript-js-timers.git"
-        "v4.0.0"
+        "v4.0.1"
     , machines =
         mkPackage
         [ "arrays"
@@ -86,12 +86,12 @@ in  { aff-coroutines =
         , "unfoldable"
         ]
         "https://github.com/purescript-contrib/purescript-machines.git"
-        "v5.0.0"
+        "v5.1.0"
     , media-types =
         mkPackage
         [ "newtype", "prelude" ]
         "https://github.com/purescript-contrib/purescript-media-types.git"
-        "v4.0.0"
+        "v4.0.1"
     , now =
         mkPackage
         [ "datetime", "effect" ]
@@ -158,10 +158,10 @@ in  { aff-coroutines =
         mkPackage
         [ "foldable-traversable", "maybe", "strings" ]
         "https://github.com/purescript-contrib/purescript-unicode.git"
-        "v4.0.0"
+        "v4.0.1"
     , unsafe-reference =
         mkPackage
         ([] : List Text)
         "https://github.com/purescript-contrib/purescript-unsafe-reference"
-        "v3.0.0"
+        "v3.0.1"
     }
