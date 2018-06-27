@@ -351,7 +351,7 @@ in  { arrays =
         mkPackage
         ([] : List Text)
         "https://github.com/purescript/purescript-prelude.git"
-        "v4.0.0"
+        "v4.0.1"
     , profunctor =
         mkPackage
         [ "contravariant"
