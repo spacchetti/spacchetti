@@ -184,7 +184,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-free.git"
-        "v5.0.0"
+        "v5.1.0"
     , functions =
         mkPackage
         [ "prelude" ]
@@ -219,7 +219,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-gen.git"
-        "v2.0.0"
+        "v2.1.0"
     , generics-rep =
         mkPackage
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]

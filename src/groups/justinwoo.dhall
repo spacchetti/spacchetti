@@ -29,7 +29,7 @@ in  { chanpon =
         mkPackage
         [ "aff-promise", "foreign-object", "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-milkis.git"
-        "v6.0.0"
+        "v6.0.1"
     , node-he =
         mkPackage
         ([] : List Text)

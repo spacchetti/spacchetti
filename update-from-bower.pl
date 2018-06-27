@@ -39,7 +39,6 @@ if ($matches < 1) {
 }
 
 chomp(my $version = "v" . `cat $json | jq '.latest.version' -r`);
-print $version;
 chomp(my $url = `cat $json | jq '.latest.repository.url' -r`);
 
 my $file = "src/groups/$1.dhall";
@@ -47,8 +46,7 @@ my $file = "src/groups/$1.dhall";
 local $/ = undef;
 open my $read, $file or die "Couldn't open file $file";
 my $string = <$read>;
-$string =~ s/(https:\/\/.*$input.*"[^"]*").*(")/$1$version$2/;
-print $string;
+$string =~ s/(https:\/\/.*purescript-$input(\.git|)"[^"]*").*(")/$1$version$3/;
 close $read;
 
 open my $write, '>', $file or die "Couldn't open file $file";
@@ -56,4 +54,4 @@ print $write $string;
 close $write;
 print `./format.sh`;
 
-print "Updated $input to $version in $file";
+print "Updated $input to $version in $file\n";
