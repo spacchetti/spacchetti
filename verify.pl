@@ -25,7 +25,7 @@ my $numArgs = $#ARGV;
 
 if ($numArgs < 0) {
   print "I need one arg for which package to verify\n";
-  print "e.g. `verify.pl simple-json`";
+  print "e.g. `verify.pl simple-json`\n";
   exit;
 }
 

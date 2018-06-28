@@ -23,7 +23,7 @@ my $numArgs = $#ARGV;
 
 if ($numArgs < 0) {
   print "I need one arg for what the bower package name is without the preceding `purescript-`\n";
-  print "e.g. `add-from-bower.pl yargs`";
+  print "e.g. `add-from-bower.pl yargs`\n";
   exit;
 }
 
@@ -33,7 +33,7 @@ my $result = `perl prepare-bower.pl $input`;
 my $matches = $result =~ /.*\/\/.*\/(.*)\//;
 
 if ($matches < 1) {
-    print "Could not extract group name from $result";
+    print "Could not extract group name from $result\n";
     exit;
 }
 
@@ -52,7 +52,7 @@ if (-e $file) {
     close $write;
     print `./format.sh`;
 
-    print "Wrote new package $input to group file $file";
+    print "Wrote new package $input to group file $file\n";
 } else {
     my $output = "let mkPackage = ./../mkPackage.dhall in  {$result}";
 
@@ -61,5 +61,5 @@ if (-e $file) {
     close $write;
     print `./format.sh`;
 
-    print "Wrote new package $input to group file $file";
+    print "Wrote new package $input to group file $file\n";
 }

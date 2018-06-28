@@ -31,7 +31,7 @@ my $numArgs = $#ARGV;
 
 if ($numArgs < 0) {
   print "I need one arg for what the bower package name is without the preceding `purescript-`\n";
-  print "e.g. `prepare-bower.pl yargs`";
+  print "e.g. `prepare-bower.pl yargs`\n";
   exit;
 }
 
