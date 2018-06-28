@@ -26,7 +26,7 @@ my @packages = `jq 'keys[]' packages.json -r`;
 my $validated = {};
 
 sub validate {
-    my ($name) = @_;
+    my ($name, $parent) = @_;
 
     if ($validated{$name}) {
         return;
@@ -35,7 +35,7 @@ sub validate {
     if (grep /^$name$/, @packages) {
         $validated{$name} = 1;
     } else {
-        print "could not find $name declared in packages.json\n";
+        print "could not find package\n  $name\nfrom dependencies of\n  $parent\ndeclared in packages.json\n";
         exit;
     }
 }
@@ -46,7 +46,7 @@ foreach my $name (@packages) {
 
     foreach my $target (@deps) {
         chomp($target = $target);
-        validate($target);
+        validate($target, $name);
     }
 }
 
