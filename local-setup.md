@@ -31,6 +31,8 @@ in    https://raw.githubusercontent.com/justinwoo/spacchetti/190618/src/packages
 }
 ```
 
+Example: <https://github.com/justinwoo/hack-symbol-breakon/blob/28e3b2fc003c63d325d990686ae7220da42fe561/packages.dhall>
+
 ## insdhall.sh (+x)
 
 ```sh
@@ -40,3 +42,5 @@ mkdir -p .psc-package/$NAME/.set
 dhall-to-json --pretty <<< './packages.dhall' > $TARGET
 echo wrote packages.json to $TARGET
 ```
+
+Example: <https://github.com/justinwoo/hack-symbol-breakon/blob/28e3b2fc003c63d325d990686ae7220da42fe561/insdhall.sh>
