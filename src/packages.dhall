@@ -5,6 +5,7 @@
 ⫽ ./groups/LiamGoodacre.dhall
 ⫽ ./groups/Thimoteus.dhall
 ⫽ ./groups/bodil.dhall
+⫽ ./groups/cdepillabout.dhall
 ⫽ ./groups/epost.dhall
 ⫽ ./groups/ethul.dhall
 ⫽ ./groups/felixSchl.dhall

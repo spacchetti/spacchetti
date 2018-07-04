@@ -3,7 +3,7 @@
 in  { node-buffer =
         mkPackage
         [ "arraybuffer-types", "effect", "maybe" ]
-        "https://github.com/purescript-node/purescript-node-buffer"
+        "https://github.com/purescript-node/purescript-node-buffer.git"
         "v5.0.0"
     , node-child-process =
         mkPackage
@@ -17,7 +17,7 @@ in  { node-buffer =
         , "posix-types"
         , "unsafe-coerce"
         ]
-        "https://github.com/purescript-node/purescript-node-child-process"
+        "https://github.com/purescript-node/purescript-node-child-process.git"
         "v5.0.0"
     , node-fs =
         mkPackage
@@ -40,7 +40,7 @@ in  { node-buffer =
         , "strings"
         , "unsafe-coerce"
         ]
-        "https://github.com/purescript-node/purescript-node-fs"
+        "https://github.com/purescript-node/purescript-node-fs.git"
         "v5.0.0"
     , node-fs-aff =
         mkPackage
