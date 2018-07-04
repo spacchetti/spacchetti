@@ -1,6 +1,6 @@
 # Local Project Usage "Example"
 
-You probably shouldn't do this.
+If you really insist on having a local workflow where you only have overrides specific to your project, this is your solution.
 
 ## Packages.dhall
 
