@@ -18,4 +18,18 @@ in  { event =
         [ "console", "either", "exceptions", "foreign", "unsafe-coerce" ]
         "https://github.com/paf31/purescript-yargs"
         "v4.0.0"
+    , behaviors =
+        mkPackage
+        [ "effect"
+        , "event"
+        , "filterable"
+        , "nullable"
+        , "ordered-collections"
+        , "prelude"
+        , "web-events"
+        , "web-html"
+        , "web-uievents"
+        ]
+        "https://github.com/paf31/purescript-behaviors.git"
+        "v7.0.0"
     }

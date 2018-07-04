@@ -130,6 +130,21 @@
     "repo": "https://github.com/slamdata/purescript-avar.git",
     "version": "v3.0.0"
   },
+  "behaviors": {
+    "dependencies": [
+      "effect",
+      "event",
+      "filterable",
+      "nullable",
+      "ordered-collections",
+      "prelude",
+      "web-events",
+      "web-html",
+      "web-uievents"
+    ],
+    "repo": "https://github.com/paf31/purescript-behaviors.git",
+    "version": "v7.0.0"
+  },
   "bifunctors": {
     "dependencies": [
       "newtype",
