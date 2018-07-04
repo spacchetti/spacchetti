@@ -55,4 +55,9 @@ in  { web-clipboard =
         [ "arraybuffer-types", "effect", "exceptions", "functions", "maybe" ]
         "https://github.com/purescript-web/purescript-canvas.git"
         "v4.0.0"
+    , web-socket =
+        mkPackage
+        [ "arraybuffer-types", "web-file" ]
+        "https://github.com/purescript-web/purescript-web-socket.git"
+        "v1.0.0"
     }

@@ -124,4 +124,21 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-routing.git"
         "v8.0.0"
+    , fixed-points =
+        mkPackage
+        [ "exists", "newtype", "prelude", "transformers" ]
+        "https://github.com/slamdata/purescript-fixed-points.git"
+        "v5.1.0"
+    , formatters =
+        mkPackage
+        [ "datetime"
+        , "fixed-points"
+        , "generics-rep"
+        , "lists"
+        , "parsing"
+        , "prelude"
+        , "transformers"
+        ]
+        "https://github.com/slamdata/purescript-formatters.git"
+        "v4.0.0"
     }

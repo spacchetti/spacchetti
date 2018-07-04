@@ -10,4 +10,9 @@ in  { colors =
         [ "globals", "math", "maybe" ]
         "https://github.com/sharkdp/purescript-numbers.git"
         "v6.0.0"
+    , bigints =
+        mkPackage
+        [ "integers", "maybe", "strings" ]
+        "https://github.com/sharkdp/purescript-bigints.git"
+        "v4.0.0"
     }

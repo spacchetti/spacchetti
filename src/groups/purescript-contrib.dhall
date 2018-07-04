@@ -164,4 +164,61 @@ in  { aff-coroutines =
         ([] : List Text)
         "https://github.com/purescript-contrib/purescript-unsafe-reference"
         "v3.0.1"
+    , argonaut =
+        mkPackage
+        [ "argonaut-codecs", "argonaut-core", "argonaut-traversals" ]
+        "https://github.com/purescript-contrib/purescript-argonaut.git"
+        "v4.0.1"
+    , argonaut-traversals =
+        mkPackage
+        [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
+        "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
+        "v4.0.1"
+    , parsing =
+        mkPackage
+        [ "arrays"
+        , "either"
+        , "foldable-traversable"
+        , "identity"
+        , "integers"
+        , "lists"
+        , "maybe"
+        , "strings"
+        , "transformers"
+        , "unicode"
+        ]
+        "https://github.com/purescript-contrib/purescript-parsing.git"
+        "v5.0.1"
+    , strongcheck =
+        mkPackage
+        [ "arrays"
+        , "console"
+        , "control"
+        , "datetime"
+        , "effect"
+        , "either"
+        , "enums"
+        , "exceptions"
+        , "foldable-traversable"
+        , "free"
+        , "gen"
+        , "identity"
+        , "integers"
+        , "invariant"
+        , "lazy"
+        , "lists"
+        , "machines"
+        , "math"
+        , "newtype"
+        , "partial"
+        , "prelude"
+        , "profunctor"
+        , "random"
+        , "strings"
+        , "tailrec"
+        , "transformers"
+        , "tuples"
+        ]
+        "https://github.com/purescript-contrib/purescript-strongcheck.git"
+        "v4.1.1"
     }
