@@ -21,5 +21,5 @@ install:
   - chmod a+x $HOME/psc-package
 
 script:
-  - ./setup.sh
+  - make setup-only
   - psc-package verify

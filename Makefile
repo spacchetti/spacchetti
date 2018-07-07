@@ -6,13 +6,14 @@ format:
 
 generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
-	@psc-package format
 	@echo generated to packages.json
 
 validate:
 	@./scripts/validate.pl
 
-setup: all
+setup: all setup-only
+
+setup-only:
 	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": [] }' > psc-package.json
 	@mkdir -p .psc-package/testing/.set
 	@cp packages.json .psc-package/testing/.set/packages.json
