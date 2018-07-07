@@ -31,14 +31,15 @@ my $numArgs = $#ARGV;
 
 if ($numArgs < 0) {
   print "I need one arg for what the bower package name is without the preceding `purescript-`\n";
-  print "e.g. `prepare-bower.pl yargs`\n";
+  print "e.g. `./scripts/prepare-bower.pl yargs`\n";
   exit;
 }
 
 my $input = $ARGV[0];
-my $json = $input . ".json";
+my $json = "bower-info/$input.json";
 
 unless(-e $json) {
+    print `mkdir -p bower-info`;
     print `bower info purescript-$input --json > $json`;
 }
 

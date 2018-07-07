@@ -10,7 +10,7 @@ generate:
 	@echo generated to packages.json
 
 validate:
-	@./validate.pl
+	@./scripts/validate.pl
 
 setup: all
 	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": [] }' > psc-package.json
