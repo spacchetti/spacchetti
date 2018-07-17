@@ -2,11 +2,15 @@
 
 [![Build Status](https://travis-ci.org/justinwoo/spacchetti.svg?branch=master)](https://travis-ci.org/justinwoo/spacchetti)
 
+[![Documentation Status](https://readthedocs.org/projects/spacchetti/badge/?version=latest)](https://spacchetti.readthedocs.io/en/latest/?badge=latest)
+
 *Mà, ho comprato una scatola di PureScript!*
 
 ![](https://i.imgur.com/roCuNQ9.png)
 
 Dhall-driven package sets, made for forking and modifying easily. Per chi non ha paura di rimboccarsi le maniche (e arrotolare gli spaghetti).
+
+Read the guide for more details on RTD: <https://spacchetti.readthedocs.io/en/latest/>
 
 Read more about how this works here: <https://github.com/justinwoo/my-blog-posts#managing-psc-package-sets-with-dhall>
 
