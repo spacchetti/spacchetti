@@ -1439,7 +1439,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "spec": {
     "dependencies": [
