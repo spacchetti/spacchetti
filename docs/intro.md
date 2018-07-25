@@ -48,4 +48,10 @@ And the package set will be available in
 .psc-package/set-name/.set/packages.json
 ```
 
+When you install a package in your given package set, the directory structure will be used, such that if you install `aff` from your package set at version `v5.0.0`, you will have the contents of that package in the directory
+
+```
+.psc-package/set-name/aff/v5.0.0
+```
+
 Once you understand these three sections, you'll be able to solve any problems you run into with Psc-Package.
