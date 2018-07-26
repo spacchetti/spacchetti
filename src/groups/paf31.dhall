@@ -45,4 +45,17 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-foreign-generic.git"
         "v7.0.0"
+    , memoize =
+        mkPackage
+        [ "either"
+        , "generics-rep"
+        , "integers"
+        , "lazy"
+        , "lists"
+        , "maybe"
+        , "strings"
+        , "tuples"
+        ]
+        "https://github.com/paf31/purescript-memoize.git"
+        "v5.0.0"
     }

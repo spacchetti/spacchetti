@@ -860,6 +860,20 @@
     "repo": "https://github.com/purescript-contrib/purescript-media-types.git",
     "version": "v4.0.1"
   },
+  "memoize": {
+    "dependencies": [
+      "either",
+      "generics-rep",
+      "integers",
+      "lazy",
+      "lists",
+      "maybe",
+      "strings",
+      "tuples"
+    ],
+    "repo": "https://github.com/paf31/purescript-memoize.git",
+    "version": "v5.0.0"
+  },
   "milkis": {
     "dependencies": [
       "aff-promise",
