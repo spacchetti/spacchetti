@@ -1,18 +1,8 @@
     let mkPackage = ./../mkPackage.dhall
 
-in  { string-parsers =
+in  { email-validate =
         mkPackage
-        [ "arrays"
-        , "bifunctors"
-        , "control"
-        , "either"
-        , "foldable-traversable"
-        , "lists"
-        , "maybe"
-        , "prelude"
-        , "strings"
-        , "tailrec"
-        ]
-        "https://github.com/justinwoo/purescript-string-parsers.git"
-        "no-code-points"
+        [ "aff", "generics-rep", "string-parsers", "transformers" ]
+        "https://github.com/justinwoo/purescript-email-validate.git"
+        "update-string-parsers-5.0"
     }

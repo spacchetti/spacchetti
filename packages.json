@@ -368,8 +368,8 @@
       "string-parsers",
       "transformers"
     ],
-    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
-    "version": "v3.0.1"
+    "repo": "https://github.com/justinwoo/purescript-email-validate.git",
+    "version": "update-string-parsers-5.0"
   },
   "enums": {
     "dependencies": [
@@ -792,7 +792,7 @@
       "string-parsers"
     ],
     "repo": "https://github.com/justinwoo/purescript-lenient-html-parser.git",
-    "version": "v3.0.1"
+    "version": "v4.0.0"
   },
   "lists": {
     "dependencies": [
@@ -1504,8 +1504,8 @@
       "strings",
       "tailrec"
     ],
-    "repo": "https://github.com/justinwoo/purescript-string-parsers.git",
-    "version": "no-code-points"
+    "repo": "https://github.com/paf31/purescript-string-parsers.git",
+    "version": "v5.0.0"
   },
   "strings": {
     "dependencies": [
@@ -1636,7 +1636,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-tortellini.git",
-    "version": "v2.0.1"
+    "version": "v3.0.0"
   },
   "transformers": {
     "dependencies": [

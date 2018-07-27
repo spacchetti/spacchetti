@@ -19,7 +19,7 @@ in  { chanpon =
         mkPackage
         [ "console", "generics-rep", "prelude", "string-parsers" ]
         "https://github.com/justinwoo/purescript-lenient-html-parser.git"
-        "v3.0.1"
+        "v4.0.0"
     , makkori =
         mkPackage
         [ "functions", "node-http", "prelude", "record" ]
@@ -94,7 +94,7 @@ in  { chanpon =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-tortellini.git"
-        "v2.0.1"
+        "v3.0.0"
     , node-telegram-bot-api =
         mkPackage
         [ "strings", "foreign", "aff", "simple-json" ]

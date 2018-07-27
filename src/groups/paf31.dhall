@@ -58,4 +58,19 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-memoize.git"
         "v5.0.0"
+    , string-parsers =
+        mkPackage
+        [ "arrays"
+        , "bifunctors"
+        , "control"
+        , "either"
+        , "foldable-traversable"
+        , "lists"
+        , "maybe"
+        , "prelude"
+        , "strings"
+        , "tailrec"
+        ]
+        "https://github.com/paf31/purescript-string-parsers.git"
+        "v5.0.0"
     }
