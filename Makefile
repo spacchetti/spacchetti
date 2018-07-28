@@ -1,7 +1,7 @@
 all: format generate validate
 
 format:
-	@ls src/**/*.dhall | xargs -I{} dhall format --inplace {}
+	@ls src/**/*.dhall | xargs -I{} dhall-format --inplace {}
 	@echo formatted dhall files
 
 generate:
