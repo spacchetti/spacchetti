@@ -368,8 +368,8 @@
       "string-parsers",
       "transformers"
     ],
-    "repo": "https://github.com/justinwoo/purescript-email-validate.git",
-    "version": "update-string-parsers-5.0"
+    "repo": "https://github.com/cdepillabout/purescript-email-validate.git",
+    "version": "v4.0.0"
   },
   "enums": {
     "dependencies": [
