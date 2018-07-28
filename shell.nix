@@ -38,9 +38,11 @@ let
     buildInputs = [
       dhall
       dhall-json
+      dhall-nix
       perl
       jq
       psc-package
+      nix-prefetch-scripts
     ];
   };
 
