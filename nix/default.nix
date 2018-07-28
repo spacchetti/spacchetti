@@ -64,17 +64,35 @@ let
   #   # TODO: from packages?
   #   nix-build -A
 
-  buildPackage = {name, version, dependencies, src}: {
-    inherit name version;
-    drv = pkgs.linkFarm "${name}-${version}"
-            ([ { name = "src"; path = src; } ]
-              ++ (map ({name, version, drv}: {
-                        name = "${name}-${version}";
-                        path = drv;
-                  })
-                  dependencies));
-  };
+  buildPscPackageSet = with pkgs.lib;
+    let
+      # TODO: use execline linkfarm
+      linkDeps = deps: pkgs.runCommand "spacchetti" {} ''
+        # this is the package list psc-package references
+        mkdir -p $out/.set
+        ln -s '${spacchettiJson}' $out/.set/packages.json
 
-in transformedSpacchetti
-     (builtins.fromJSON (builtins.readFile ../git-sha.json))
-     buildPackage
+        # now we link in all packages
+        ${concatStringsSep "\n"
+            ( # TODO: escaping?
+              mapAttrsToList (name: {version, src}: ''
+                mkdir -p "$out/${name}"
+                ln -s '${src}' "$out/${name}/${version}"
+              '') deps)}
+      '';
+
+      # we use the fact that spacchetti must already list
+      # all needed packages at the top level to link a flat
+      # dependency structure.
+      ignoreDeps = pkg: removeAttrs pkg [ "name" "dependencies" ];
+
+      packages =
+        transformedSpacchetti
+          # TODO: pass sha.json explicitely
+          (builtins.fromJSON (builtins.readFile ../git-sha.json))
+          ignoreDeps;
+
+    in linkDeps packages;
+
+
+in buildPscPackageSet
