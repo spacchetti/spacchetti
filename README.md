@@ -29,6 +29,12 @@ This project requires that you have at least:
 * [Psc-Package](https://github.com/purescript/psc-package/) installed, with the release binary in your PATH in some way.
 * [jq](https://github.com/stedolan/jq) installed.
 
+If you use the [nix package manager](https://nixos.org/nix) you can open a shell with all dependencies by using the provided `shell.nix` file:
+
+```
+nix-shell --pure shell.nix
+```
+
 ### How files are organized
 
 ```hs
