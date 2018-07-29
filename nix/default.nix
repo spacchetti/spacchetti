@@ -106,7 +106,12 @@ let
                (mapAttrsToList (_: compiled: ''ln -s "${compiled}"/* $out'')
                  transitiveCompiled)}
 
+            # we disable parallel compilation by setting the purescript
+            # runtime to -N1 so it only runs on one thread. nix already
+            # parallelizes the builds for us. This leads to a speedup of
+            # ~100% for compiling big package sets.
             ${pkgs.purescript}/bin/purs compile \
+              +RTS -N1 -RTS \
               --output $out \
               ${# purs needs the source code of all transitive dependencies;
                 # already includes our own
