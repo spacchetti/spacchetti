@@ -216,10 +216,10 @@
   },
   "choco-pie": {
     "dependencies": [
-      "prelude",
       "event",
-      "typelevel-prelude",
-      "record"
+      "prelude",
+      "record",
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-choco-pie.git",
     "version": "v2.0.0"
@@ -407,14 +407,14 @@
   },
   "event": {
     "dependencies": [
-      "prelude",
       "console",
       "effect",
       "filterable",
-      "nullable",
-      "unsafe-reference",
       "js-timers",
-      "now"
+      "now",
+      "nullable",
+      "prelude",
+      "unsafe-reference"
     ],
     "repo": "https://github.com/paf31/purescript-event.git",
     "version": "v1.2.4"
@@ -1076,10 +1076,10 @@
   },
   "node-telegram-bot-api": {
     "dependencies": [
-      "strings",
-      "foreign",
       "aff",
-      "simple-json"
+      "foreign",
+      "simple-json",
+      "strings"
     ],
     "repo": "https://github.com/justinwoo/purescript-node-telegram-bot-api.git",
     "version": "v4.0.0"
@@ -1389,12 +1389,12 @@
   "react": {
     "dependencies": [
       "effect",
-      "prelude",
-      "unsafe-coerce",
       "exceptions",
       "maybe",
       "nullable",
-      "typelevel-prelude"
+      "prelude",
+      "typelevel-prelude",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
     "version": "v6.0.0"
@@ -1413,9 +1413,9 @@
   },
   "react-dom": {
     "dependencies": [
-      "web-dom",
+      "effect",
       "react",
-      "effect"
+      "web-dom"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react-dom.git",
     "version": "v6.0.0"
@@ -1783,11 +1783,11 @@
   },
   "unordered-collections": {
     "dependencies": [
+      "enums",
+      "integers",
       "prelude",
       "record",
-      "tuples",
-      "integers",
-      "enums"
+      "tuples"
     ],
     "repo": "https://github.com/justinwoo/purescript-unordered-collections.git",
     "version": "missing-deps"
