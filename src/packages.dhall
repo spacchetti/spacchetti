@@ -21,4 +21,11 @@
 ⫽ ./groups/nwolverson.dhall
 ⫽ ./groups/natefaubion.dhall
 ⫽ ./groups/paf31.dhall
+⫽ ./groups/passy.dhall
+⫽ ./groups/anttih.dhall
+⫽ ./groups/citizennet.dhall
+⫽ ./groups/paluh.dhall
+⫽ ./groups/fehrenbach.dhall
+⫽ ./groups/brandonhamilton.dhall
 ⫽ ./groups/justinwoo.dhall
+⫽ ./groups/patches.dhall

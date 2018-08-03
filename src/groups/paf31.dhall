@@ -73,4 +73,9 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-string-parsers.git"
         "v5.0.0"
+    , pairing =
+        mkPackage
+        [ "free", "functors", "transformers" ]
+        "https://github.com/paf31/purescript-pairing.git"
+        "v5.1.0"
     }
