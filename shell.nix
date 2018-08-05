@@ -8,6 +8,7 @@ mkShell {
     dhall-json
     perl
     jq
+    psc-package
     # TODO: remove once https://github.com/dhall-lang/dhall-haskell/issues/504 is fixed
     glibcLocales
   ];
