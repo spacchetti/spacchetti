@@ -47,7 +47,7 @@ sub verify {
 
     $visited{$name} = 1;
 
-    my @reverseDeps = `cat packages.json | jq 'to_entries[] | select(.value.dependencies[] | contains("$name")) | .key'`;
+    my @reverseDeps = `cat packages.json | jq 'to_entries[] | select(.value.dependencies[] | . == "$name") | .key'`;
 
     foreach my $target (@reverseDeps) {
         $target =~ s/"//g;
