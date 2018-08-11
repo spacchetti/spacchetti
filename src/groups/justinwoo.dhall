@@ -105,4 +105,14 @@ in  { chanpon =
         [ "prelude", "event", "typelevel-prelude", "record" ]
         "https://github.com/justinwoo/purescript-choco-pie.git"
         "v2.0.0"
+    , expect-inferred =
+        mkPackage
+        [ "prelude", "type-isequal", "typelevel-prelude" ]
+        "https://github.com/justinwoo/purescript-expect-inferred.git"
+        "v0.1.0"
+    , type-isequal =
+        mkPackage
+        [ "typelevel-prelude" ]
+        "https://github.com/justinwoo/purescript-type-isequal.git"
+        "v0.1.0"
     }

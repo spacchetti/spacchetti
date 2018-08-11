@@ -436,6 +436,15 @@
     "repo": "https://github.com/purescript/purescript-exists.git",
     "version": "v4.0.0"
   },
+  "expect-inferred": {
+    "dependencies": [
+      "prelude",
+      "type-isequal",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
+    "version": "v0.1.0"
+  },
   "filterable": {
     "dependencies": [
       "arrays",
@@ -1751,6 +1760,13 @@
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-type-equality.git",
     "version": "v3.0.0"
+  },
+  "type-isequal": {
+    "dependencies": [
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-type-isequal.git",
+    "version": "v0.1.0"
   },
   "typelevel-prelude": {
     "dependencies": [
