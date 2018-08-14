@@ -1411,14 +1411,17 @@
   "react-basic": {
     "dependencies": [
       "effect",
+      "exceptions",
       "functions",
       "nullable",
       "record",
       "typelevel-prelude",
-      "unsafe-coerce"
+      "unsafe-coerce",
+      "web-dom",
+      "web-events"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v1.2.0"
+    "version": "v2.0.0"
   },
   "react-dom": {
     "dependencies": [
