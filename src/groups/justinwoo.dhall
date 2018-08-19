@@ -104,7 +104,7 @@ in  { chanpon =
         mkPackage
         [ "prelude", "event", "typelevel-prelude", "record" ]
         "https://github.com/justinwoo/purescript-choco-pie.git"
-        "v2.0.0"
+        "v3.0.0"
     , expect-inferred =
         mkPackage
         [ "prelude", "type-isequal", "typelevel-prelude" ]
