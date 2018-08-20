@@ -795,6 +795,16 @@
     "repo": "https://github.com/purescript-contrib/purescript-js-timers.git",
     "version": "v4.0.1"
   },
+  "kancho": {
+    "dependencies": [
+      "foreign",
+      "newtype",
+      "strings",
+      "typelevel-prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-kancho.git",
+    "version": "v1.0.0"
+  },
   "lazy": {
     "dependencies": [
       "control",

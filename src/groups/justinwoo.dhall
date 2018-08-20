@@ -115,4 +115,9 @@ in  { chanpon =
         [ "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-type-isequal.git"
         "v0.1.0"
+    , kancho =
+        mkPackage
+        [ "foreign", "newtype", "strings", "typelevel-prelude" ]
+        "https://github.com/justinwoo/purescript-kancho.git"
+        "v1.0.0"
     }
