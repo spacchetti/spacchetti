@@ -28,4 +28,3 @@
 ⫽ ./groups/fehrenbach.dhall
 ⫽ ./groups/brandonhamilton.dhall
 ⫽ ./groups/justinwoo.dhall
-⫽ ./groups/patches.dhall

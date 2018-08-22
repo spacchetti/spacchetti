@@ -4,5 +4,5 @@ in  { unordered-collections =
         mkPackage
         [ "prelude" ]
         "https://github.com/fehrenbach/purescript-unordered-collections.git"
-        "v1.1.0"
+        "v1.3.0"
     }

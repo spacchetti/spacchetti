@@ -1812,14 +1812,10 @@
   },
   "unordered-collections": {
     "dependencies": [
-      "enums",
-      "integers",
-      "prelude",
-      "record",
-      "tuples"
+      "prelude"
     ],
-    "repo": "https://github.com/justinwoo/purescript-unordered-collections.git",
-    "version": "missing-deps"
+    "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
+    "version": "v1.3.0"
   },
   "unsafe-coerce": {
     "dependencies": [],
