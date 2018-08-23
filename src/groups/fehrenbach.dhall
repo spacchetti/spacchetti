@@ -2,7 +2,7 @@
 
 in  { unordered-collections =
         mkPackage
-        [ "prelude" ]
+        [ "enums", "integers", "prelude", "record", "tuples" ]
         "https://github.com/fehrenbach/purescript-unordered-collections.git"
         "v1.3.0"
     }
