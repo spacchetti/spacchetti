@@ -63,7 +63,7 @@ in  { arrays =
         mkPackage
         [ "prelude" ]
         "https://github.com/purescript/purescript-control.git"
-        "v4.0.0"
+        "v4.1.0"
     , datetime =
         mkPackage
         [ "bifunctors"
@@ -204,7 +204,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-functors.git"
-        "v3.0.0"
+        "v3.0.1"
     , gen =
         mkPackage
         [ "either"
@@ -244,7 +244,7 @@ in  { arrays =
         mkPackage
         [ "prelude" ]
         "https://github.com/purescript/purescript-invariant.git"
-        "v4.0.0"
+        "v4.1.0"
     , lazy =
         mkPackage
         [ "control", "foldable-traversable", "invariant", "prelude" ]
@@ -278,7 +278,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-lists.git"
-        "v5.0.0"
+        "v5.2.0"
     , math =
         mkPackage
         ([] : List Text)
@@ -351,7 +351,7 @@ in  { arrays =
         mkPackage
         ([] : List Text)
         "https://github.com/purescript/purescript-prelude.git"
-        "v4.0.1"
+        "v4.1.0"
     , profunctor =
         mkPackage
         [ "contravariant"

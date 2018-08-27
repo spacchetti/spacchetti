@@ -10,7 +10,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/slamdata/purescript-aff.git",
-    "version": "v5.0.0"
+    "version": "v5.0.2"
   },
   "aff-coroutines": {
     "dependencies": [
@@ -47,7 +47,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "ansi": {
     "dependencies": [
@@ -279,7 +279,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-control.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "coroutines": {
     "dependencies": [
@@ -453,7 +453,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "filterable": {
     "dependencies": [
@@ -465,7 +465,7 @@
       "ordered-collections"
     ],
     "repo": "https://github.com/LiamGoodacre/purescript-filterable.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "fixed-points": {
     "dependencies": [
@@ -631,7 +631,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v3.0.0"
+    "version": "v3.0.1"
   },
   "gen": {
     "dependencies": [
@@ -748,7 +748,7 @@
       "strings"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-http-methods.git",
-    "version": "v4.0.1"
+    "version": "v4.0.2"
   },
   "identity": {
     "dependencies": [
@@ -776,7 +776,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-invariant.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "jajanmen": {
     "dependencies": [
@@ -864,7 +864,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v5.0.0"
+    "version": "v5.2.0"
   },
   "machines": {
     "dependencies": [
@@ -1311,7 +1311,7 @@
   "prelude": {
     "dependencies": [],
     "repo": "https://github.com/purescript/purescript-prelude.git",
-    "version": "v4.0.1"
+    "version": "v4.1.0"
   },
   "prettier": {
     "dependencies": [
@@ -1449,7 +1449,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-react.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "react-basic": {
     "dependencies": [
@@ -1583,7 +1583,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "spec": {
     "dependencies": [
@@ -1819,7 +1819,8 @@
       "partial",
       "prelude",
       "tuples",
-      "typelevel-prelude"
+      "typelevel-prelude",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v4.0.0"
@@ -1898,7 +1899,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "web-clipboard": {
     "dependencies": [

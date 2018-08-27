@@ -63,7 +63,7 @@ in  { chanpon =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v4.1.0"
+        "v4.2.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
@@ -109,7 +109,7 @@ in  { chanpon =
         mkPackage
         [ "prelude", "type-isequal", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-expect-inferred.git"
-        "v0.1.0"
+        "v0.2.0"
     , type-isequal =
         mkPackage
         [ "typelevel-prelude" ]
