@@ -525,4 +525,17 @@ in  { arrays =
         [ "bifunctors", "control", "either", "foldable-traversable", "prelude" ]
         "https://github.com/purescript/purescript-validation.git"
         "v4.0.0"
+    , minibench =
+        mkPackage
+        [ "console"
+        , "effect"
+        , "globals"
+        , "integers"
+        , "math"
+        , "partial"
+        , "prelude"
+        , "refs"
+        ]
+        "https://github.com/purescript/purescript-minibench.git"
+        "v2.0.0"
     }

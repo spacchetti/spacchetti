@@ -221,4 +221,9 @@ in  { aff-coroutines =
         ]
         "https://github.com/purescript-contrib/purescript-strongcheck.git"
         "v4.1.1"
+    , argonaut-generic =
+        mkPackage
+        [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
+        "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
+        "v2.0.0"
     }
