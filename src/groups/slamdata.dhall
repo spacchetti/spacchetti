@@ -11,7 +11,7 @@ in  { aff =
         , "unsafe-coerce"
         ]
         "https://github.com/slamdata/purescript-aff.git"
-        "v5.0.0"
+        "v5.0.2"
     , affjax =
         mkPackage
         [ "aff"
@@ -29,7 +29,7 @@ in  { aff =
         , "web-xhr"
         ]
         "https://github.com/slamdata/purescript-affjax.git"
-        "v6.0.0"
+        "v7.0.0"
     , avar =
         mkPackage
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]

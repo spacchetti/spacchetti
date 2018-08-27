@@ -62,7 +62,7 @@ in  { aff-coroutines =
         mkPackage
         [ "either", "prelude", "strings" ]
         "https://github.com/purescript-contrib/purescript-http-methods.git"
-        "v4.0.1"
+        "v4.0.2"
     , js-date =
         mkPackage
         [ "datetime", "exceptions", "foreign", "integers", "now" ]
@@ -143,7 +143,7 @@ in  { aff-coroutines =
         , "typelevel-prelude"
         ]
         "https://github.com/purescript-contrib/purescript-react.git"
-        "v6.0.0"
+        "v6.1.0"
     , react-dom =
         mkPackage
         [ "web-dom", "react", "effect" ]
@@ -221,4 +221,9 @@ in  { aff-coroutines =
         ]
         "https://github.com/purescript-contrib/purescript-strongcheck.git"
         "v4.1.1"
+    , argonaut-generic =
+        mkPackage
+        [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
+        "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
+        "v2.0.0"
     }

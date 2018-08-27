@@ -15,4 +15,9 @@ in  { test-unit =
         ]
         "https://github.com/bodil/purescript-test-unit.git"
         "v14.0.0"
+    , typelevel =
+        mkPackage
+        [ "partial", "prelude", "tuples", "typelevel-prelude", "unsafe-coerce" ]
+        "https://github.com/bodil/purescript-typelevel.git"
+        "v4.0.0"
     }
