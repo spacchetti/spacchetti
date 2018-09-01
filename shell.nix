@@ -56,10 +56,12 @@ let
     # we copy a lot of stuff of the haskellPackages env builder,
     # because it is unfortunately not very composable.
     LANG = "en_US.UTF-8";
-    # TODO: remove once https://github.com/dhall-lang/dhall-haskell/issues/504 is fixed
-    LOCALE_ARCHIVE = "${glibcLocales}/lib/locale/locale-archive";
     inherit (h.libnix.env) shellHook;
-  });
+  } // (if glibcLocales != null
+    # TODO: remove once https://github.com/dhall-lang/dhall-haskell/issues/504 is fixed
+    then { LOCALE_ARCHIVE = "${glibcLocales}/lib/locale/locale-archive"; }
+    else {})
+  );
 
 in
 mkShell (fullShellArgs // {
