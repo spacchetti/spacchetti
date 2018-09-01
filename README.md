@@ -35,6 +35,12 @@ If you use the [nix package manager](https://nixos.org/nix) you can open a shell
 nix-shell --pure shell.nix
 ```
 
+There is also a more minimal shell without the Haskell script dependencies available:
+
+```
+nix-shell --pure -A small shell.nix
+```
+
 ### How files are organized
 
 ```hs
@@ -98,6 +104,15 @@ You will only need the following scripts:
 * `update-from-bower.pl` - to update a package that is registered on Bower.
 
 These each take an argument of a package, e.g. `./update-from-bower.pl behaviors`.
+
+### Using Haskell scripts in this repository
+
+```
+$ nix-shell --pure --run "runhaskell scripts/Prefetch.hs" \
+    | tee hashes.json
+```
+
+Outputs a record of all package’s git repository hashsums, by calling the nix prefetch scripts. Useful for consecutive building of Purescript packages with nix.
 
 ## Further Complaints
 
