@@ -120,4 +120,9 @@ in  { chanpon =
         [ "foreign", "newtype", "strings", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-kancho.git"
         "v1.0.0"
+    , redux-devtools =
+        mkPackage
+        [ "effect", "foreign", "nullable", "prelude" ]
+        "https://github.com/justinwoo/purescript-redux-devtools.git"
+        "v0.1.0"
     }

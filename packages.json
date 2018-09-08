@@ -1504,6 +1504,16 @@
     "repo": "https://github.com/kcsongor/purescript-record-format.git",
     "version": "v0.1.0"
   },
+  "redux-devtools": {
+    "dependencies": [
+      "effect",
+      "foreign",
+      "nullable",
+      "prelude"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-redux-devtools.git",
+    "version": "v0.1.0"
+  },
   "refs": {
     "dependencies": [
       "effect",

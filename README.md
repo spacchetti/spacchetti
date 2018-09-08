@@ -99,9 +99,7 @@ You will only need the following scripts:
 
 * `verify.pl` - to install a given package and validate the entire compiled output.
 
-* `add-from-bower.pl` - to add a package that is registered on Bower.
-
-* `update-from-bower.pl` - to update a package that is registered on Bower.
+* `from-bower.pl` - to add/update a package that is registered on Bower.
 
 These each take an argument of a package, e.g. `./update-from-bower.pl behaviors`.
 
