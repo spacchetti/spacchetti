@@ -125,4 +125,9 @@ in  { chanpon =
         [ "effect", "foreign", "nullable", "prelude" ]
         "https://github.com/justinwoo/purescript-redux-devtools.git"
         "v0.1.0"
+    , simple-json-generics =
+        mkPackage
+        [ "generics-rep", "simple-json" ]
+        "https://github.com/justinwoo/purescript-simple-json-generics.git"
+        "v0.1.0"
     }

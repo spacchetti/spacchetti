@@ -1595,6 +1595,14 @@
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
     "version": "v4.2.0"
   },
+  "simple-json-generics": {
+    "dependencies": [
+      "generics-rep",
+      "simple-json"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-simple-json-generics.git",
+    "version": "v0.1.0"
+  },
   "spec": {
     "dependencies": [
       "aff",
