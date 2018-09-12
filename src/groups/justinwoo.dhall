@@ -130,4 +130,9 @@ in  { chanpon =
         [ "generics-rep", "simple-json" ]
         "https://github.com/justinwoo/purescript-simple-json-generics.git"
         "v0.1.0"
+    , naporitan =
+        mkPackage
+        [ "record" ]
+        "https://github.com/justinwoo/purescript-naporitan.git"
+        "v0.1.0"
     }

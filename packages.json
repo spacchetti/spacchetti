@@ -960,6 +960,13 @@
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
     "version": "v5.0.0"
   },
+  "naporitan": {
+    "dependencies": [
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-naporitan.git",
+    "version": "v0.1.0"
+  },
   "newtype": {
     "dependencies": [
       "prelude"
