@@ -134,5 +134,10 @@ in  { chanpon =
         mkPackage
         [ "record" ]
         "https://github.com/justinwoo/purescript-naporitan.git"
+        "v0.2.0"
+    , xiaomian =
+        mkPackage
+        [ "naporitan" ]
+        "https://github.com/justinwoo/purescript-xiaomian.git"
         "v0.1.0"
     }

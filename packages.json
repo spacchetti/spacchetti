@@ -965,7 +965,7 @@
       "record"
     ],
     "repo": "https://github.com/justinwoo/purescript-naporitan.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "newtype": {
     "dependencies": [
@@ -2008,6 +2008,13 @@
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
     "version": "v2.0.0"
+  },
+  "xiaomian": {
+    "dependencies": [
+      "naporitan"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-xiaomian.git",
+    "version": "v0.1.0"
   },
   "yargs": {
     "dependencies": [
