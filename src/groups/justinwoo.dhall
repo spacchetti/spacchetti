@@ -140,4 +140,9 @@ in  { chanpon =
         [ "naporitan" ]
         "https://github.com/justinwoo/purescript-xiaomian.git"
         "v0.1.0"
+    , chirashi =
+        mkPackage
+        [ "exceptions", "prelude", "variant" ]
+        "https://github.com/justinwoo/purescript-chirashi.git"
+        "v0.1.0"
     }

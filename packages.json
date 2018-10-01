@@ -224,6 +224,15 @@
     "repo": "https://github.com/justinwoo/purescript-chanpon.git",
     "version": "v1.0.0"
   },
+  "chirashi": {
+    "dependencies": [
+      "exceptions",
+      "prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-chirashi.git",
+    "version": "v0.1.0"
+  },
   "choco-pie": {
     "dependencies": [
       "event",
