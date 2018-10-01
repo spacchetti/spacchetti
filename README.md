@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/justinwoo/spacchetti.svg?branch=master)](https://travis-ci.org/justinwoo/spacchetti)
 
+[![Build Status](https://dev.azure.com/justinw2/justin-project/_apis/build/status/justinwoo.spacchetti)](https://dev.azure.com/justinw2/justin-project/_build/latest?definitionId=1)
+
 [![Documentation Status](https://readthedocs.org/projects/spacchetti/badge/?version=latest)](https://spacchetti.readthedocs.io/en/latest/?badge=latest)
 
 *Mà, ho comprato una scatola di PureScript!*
