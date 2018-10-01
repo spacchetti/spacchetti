@@ -1,0 +1,16 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+pool:
+  vmImage: 'Ubuntu 16.04'
+
+steps:
+- script: |
+    export PATH=~/.npm/bin:$PATH
+    npm set prefix ~/.npm
+    npm i -g purescript psc-package-bin-simple spacchetti-cli-bin-simple
+    make setup-only
+    psc-package verify
+  displayName: 'Install deps and run'
