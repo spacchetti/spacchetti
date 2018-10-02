@@ -15,3 +15,4 @@ Pages
   working
   local-setup
   local-setup-manual
+  faq
