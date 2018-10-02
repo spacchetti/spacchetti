@@ -14,3 +14,4 @@ Pages
   why-dhall
   working
   local-setup
+  local-setup-manual
