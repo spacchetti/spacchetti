@@ -44,7 +44,7 @@ This will generate two files:
 * `packages.dhall`: this is your local package set file, which will refer to the upstream package set and also assign a `upstream` variable you can use to modify your package set.
 * `psc-package.json`: this is the normal psc-package file, with the change that it will refer to a "local" set.
 
-Before you try to run anything else, make sure you run `spacchetti inshdall`:
+Before you try to run anything else, make sure you run `spacchetti insdhall`:
 
 ### InsDhall
 
