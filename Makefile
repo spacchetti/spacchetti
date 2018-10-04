@@ -4,7 +4,6 @@ format:
 	@ls src/**/*.dhall | xargs -I{} dhall format --inplace {}
 	@echo formatted dhall files
 
-
 generate: SHELL:=/bin/bash
 generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
