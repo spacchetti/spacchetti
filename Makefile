@@ -1,7 +1,7 @@
 all: format generate validate
 
 format:
-	@ls src/**/*.dhall | xargs -I{} dhall format --inplace {}
+	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
 	@echo formatted dhall files
 
 generate: SHELL:=/bin/bash
