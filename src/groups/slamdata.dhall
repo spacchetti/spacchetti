@@ -141,4 +141,9 @@ in  { aff =
         ]
         "https://github.com/slamdata/purescript-formatters.git"
         "v4.0.0"
+    , halogen-bootstrap =
+        mkPackage
+        [ "halogen" ]
+        "https://github.com/slamdata/purescript-halogen-bootstrap.git"
+        "v8.0.0"
     }

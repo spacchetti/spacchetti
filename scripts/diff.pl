@@ -5,7 +5,15 @@ use warnings;
 
 use FindBin '$RealBin';
 
-# diff.pl their-packages.json
+=head1 diff.pl
+
+Get a diff between the local package set and the other package set.
+
+Example:
+
+  ./scripts/diff.pl ../package-sets/packages.json
+
+=cut
 
 my $ours = "packages.json";
 my $theirs = $ARGV[0];

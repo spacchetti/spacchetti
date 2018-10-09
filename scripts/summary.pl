@@ -3,7 +3,15 @@
 use strict;
 use warnings;
 
-# summary of target packages.json file
+=head1 summary.pl
+
+Get a summary of a given package set. You should probably use `diff.pl` instead.
+
+Example:
+
+  ./scripts/summary.pl packages.json
+
+=cut
 
 my $target = $ARGV[0];
 
