@@ -13,5 +13,5 @@ in  { react-basic =
         , "web-events"
         ]
         "https://github.com/lumihq/purescript-react-basic.git"
-        "v2.0.1"
+        "v3.0.0"
     }
