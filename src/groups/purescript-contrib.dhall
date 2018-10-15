@@ -101,7 +101,7 @@ in  { aff-coroutines =
         mkPackage
         [ "functions", "maybe" ]
         "https://github.com/purescript-contrib/purescript-nullable.git"
-        "v4.0.0"
+        "v4.1.0"
     , options =
         mkPackage
         [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
@@ -131,7 +131,7 @@ in  { aff-coroutines =
         , "tuples"
         ]
         "https://github.com/purescript-contrib/purescript-profunctor-lenses.git"
-        "v4.0.0"
+        "v5.0.0"
     , react =
         mkPackage
         [ "effect"
