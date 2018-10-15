@@ -16,7 +16,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-arrays.git"
-        "v5.0.0"
+        "v5.1.0"
     , assert =
         mkPackage
         [ "console", "effect", "prelude" ]
@@ -135,7 +135,7 @@ in  { arrays =
         mkPackage
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
         "https://github.com/purescript/purescript-foldable-traversable.git"
-        "v4.0.0"
+        "v4.1.0"
     , foreign =
         mkPackage
         [ "either"
@@ -204,7 +204,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-functors.git"
-        "v3.0.1"
+        "v3.1.0"
     , gen =
         mkPackage
         [ "either"
@@ -224,7 +224,7 @@ in  { arrays =
         mkPackage
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-generics-rep.git"
-        "v6.0.0"
+        "v6.1.0"
     , globals =
         mkPackage
         ([] : List Text)
@@ -278,7 +278,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-lists.git"
-        "v5.2.0"
+        "v5.3.0"
     , math =
         mkPackage
         ([] : List Text)
@@ -321,7 +321,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-ordered-collections.git"
-        "v1.0.0"
+        "v1.4.0"
     , orders =
         mkPackage
         [ "newtype", "prelude" ]

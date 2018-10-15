@@ -14,7 +14,7 @@ in  { chanpon =
         mkPackage
         [ "node-sqlite3", "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-jajanmen.git"
-        "v0.1.0"
+        "v0.2.0"
     , lenient-html-parser =
         mkPackage
         [ "console", "generics-rep", "prelude", "string-parsers" ]

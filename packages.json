@@ -28,7 +28,7 @@
       "foreign"
     ],
     "repo": "https://github.com/nwolverson/purescript-aff-promise.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "affjax": {
     "dependencies": [
@@ -135,7 +135,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "assert": {
     "dependencies": [
@@ -496,7 +496,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-foldable-traversable.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "foreign": {
     "dependencies": [
@@ -640,7 +640,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v3.0.1"
+    "version": "v3.1.0"
   },
   "gen": {
     "dependencies": [
@@ -667,7 +667,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
-    "version": "v6.0.0"
+    "version": "v6.1.0"
   },
   "globals": {
     "dependencies": [],
@@ -813,7 +813,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-jajanmen.git",
-    "version": "v0.1.0"
+    "version": "v0.2.0"
   },
   "js-date": {
     "dependencies": [
@@ -892,7 +892,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-lists.git",
-    "version": "v5.2.0"
+    "version": "v5.3.0"
   },
   "machines": {
     "dependencies": [
@@ -1195,7 +1195,7 @@
       "maybe"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "numbers": {
     "dependencies": [
@@ -1233,7 +1233,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-ordered-collections.git",
-    "version": "v1.0.0"
+    "version": "v1.4.0"
   },
   "orders": {
     "dependencies": [
@@ -1395,7 +1395,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-profunctor-lenses.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "proxy": {
     "dependencies": [
@@ -1962,7 +1962,7 @@
       "tuples"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.3.0"
+    "version": "v1.5.0"
   },
   "unsafe-coerce": {
     "dependencies": [],
@@ -2040,7 +2040,7 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
-    "version": "v1.0.0"
+    "version": "v1.2.0"
   },
   "web-socket": {
     "dependencies": [
