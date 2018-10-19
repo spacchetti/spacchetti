@@ -13,6 +13,11 @@ Example:
 
 =cut
 
+if ($#ARGV < 0) {
+  print "Need an argument for a packages.json to summarize!";
+  exit;
+}
+
 my $target = $ARGV[0];
 
 my @packages = `jq 'keys[]' $target -r`;

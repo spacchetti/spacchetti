@@ -13,6 +13,11 @@ Example:
 
 =cut
 
+if ($#ARGV < 0) {
+  print "Need an argument for \"their\" packages.json!\n";
+  exit 1;
+}
+
 my $ours = "packages.json";
 my $theirs = $ARGV[0];
 
