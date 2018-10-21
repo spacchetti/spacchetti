@@ -39,7 +39,7 @@ in  { chanpon =
         mkPackage
         [ "aff", "foreign" ]
         "https://github.com/justinwoo/purescript-node-sqlite3"
-        "v4.1.0"
+        "v5.0.0"
     , record-extra =
         mkPackage
         [ "lists", "record", "typelevel-prelude" ]
