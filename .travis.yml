@@ -1,0 +1,2 @@
+language: nix
+script: nix-shell easy-purescript.nix --run 'make ci'

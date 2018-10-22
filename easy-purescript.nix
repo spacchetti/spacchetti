@@ -1,25 +1,15 @@
 let
   pkgs = import <nixpkgs> {};
 
-  easyPS = import (pkgs.fetchFromGitHub {
+  easy-ps = import (pkgs.fetchFromGitHub {
     owner = "justinwoo";
     repo = "easy-purescript-nix";
-    rev = "8d02bf2ce370a4f9a6997094b8eaa0a808372679";
-    sha256 = "0b8da75vg9fgaga4v236ibycqski4138s35l35fciz3ydmzbf8hf";
+    rev = "84723cd";
+    sha256 = "1vid6djm64c4whyxsnpxr4s1j7x9fkiv456h3hxagq6z4jsrar71";
   });
-in {
-  shell = pkgs.stdenv.mkDerivation {
-    name = "easy-purescript-nix";
-    src = ./.;
+in pkgs.stdenv.mkDerivation {
+  name = "easy-ps-test";
+  src = ./.;
 
-    buildInputs = [
-      easyPS.purs
-      easyPS.psc-package-simple
-      easyPS.purp
-
-      easyPS.dhall-simple
-      easyPS.dhall-json-simple
-      easyPS.spacchetti-cli
-    ];
-  };
+  buildInputs = easy-ps.buildInputs;
 }
