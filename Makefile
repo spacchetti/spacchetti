@@ -20,3 +20,6 @@ setup-only:
 	@mkdir -p .psc-package/testing/.set
 	@cp packages.json .psc-package/testing/.set/packages.json
 	@echo setup testing package set
+
+ci: setup-only
+	psc-package verify
