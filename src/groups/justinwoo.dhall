@@ -145,4 +145,9 @@ in  { chanpon =
         [ "exceptions", "prelude", "variant" ]
         "https://github.com/justinwoo/purescript-chirashi.git"
         "v0.1.0"
+    , sijidou =
+        mkPackage
+        [ "prelude", "record" ]
+        "https://github.com/justinwoo/purescript-sijidou.git"
+        "v0.1.0"
     }
