@@ -84,7 +84,7 @@ in  { arrays =
         , "tuples"
         ]
         "https://github.com/purescript/purescript-datetime.git"
-        "v4.0.0"
+        "v4.1.0"
     , distributive =
         mkPackage
         [ "identity", "newtype", "prelude" ]

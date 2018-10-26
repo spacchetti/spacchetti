@@ -333,7 +333,7 @@
       "tuples"
     ],
     "repo": "https://github.com/purescript/purescript-datetime.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "debug": {
     "dependencies": [
@@ -1625,6 +1625,14 @@
     ],
     "repo": "https://github.com/bodil/purescript-signal.git",
     "version": "v10.1.0"
+  },
+  "sijidou": {
+    "dependencies": [
+      "prelude",
+      "record"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-sijidou.git",
+    "version": "v0.1.0"
   },
   "simple-json": {
     "dependencies": [
