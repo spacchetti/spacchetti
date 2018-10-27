@@ -2,6 +2,8 @@
 
 There's now a CLI for the repetitive boilerplate generation and task running parts here: <https://github.com/justinwoo/spacchetti-cli>
 
+See the example repo here: <https://github.com/justinwoo/spacchetti-local-setup-example>
+
 In psc-package, there is nothing like "extra-deps" from Stack. Even though editing a package set isn't hard, it can be fairly meaningless to have a package set that differs from package sets that you use for your other projects. While there's no real convenient way to work with it with standard purescript/package-sets, this is made easy with Dhall again where you can define a packages.dhall file in your repo and refer to remote sources for mkPackage and some existing packages.dhall.
 
 ## With the CLI
