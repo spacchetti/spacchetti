@@ -45,12 +45,18 @@ unless(-e $json) {
     print `bower info purescript-$input --json > $json`;
 }
 
-chomp(my $dependencies = `cat $json | jq '.latest.dependencies' | jq 'keys | map(.[11:])'`);
+chomp(my $dependenciesCheck = `cat $json | jq '.latest.dependencies?'`);
+my $dependencies = '';
+
+unless ($dependenciesCheck eq 'null') {
+  chomp($dependencies = `cat $json | jq '.latest.dependencies' | jq 'keys | map(.[11:])'`);
+}
+
 chomp(my $version = `cat $json | jq '.latest.version'`);
 chomp(my $url = `cat $json | jq '.latest.repository.url'`);
-my $from = 'git:';
-my $to = "https:";
-$url =~ s/$from/$to/;
+$url =~ s/git:/https:/;
+$url =~ s/com:/com\//;
+$url =~ s/git@/https:\/\//g;
 
 # bower doesn't believe in telling us the correct tag names
 unless ($version =~ /v/) {
