@@ -53,7 +53,7 @@ in  { arrays =
         , "prelude"
         ]
         "https://github.com/purescript/purescript-const.git"
-        "v4.0.0"
+        "v4.1.0"
     , contravariant =
         mkPackage
         [ "either", "newtype", "prelude", "tuples" ]
@@ -105,7 +105,7 @@ in  { arrays =
         , "prelude"
         ]
         "https://github.com/purescript/purescript-either.git"
-        "v4.0.0"
+        "v4.1.0"
     , enums =
         mkPackage
         [ "control"
@@ -234,7 +234,7 @@ in  { arrays =
         mkPackage
         [ "control", "foldable-traversable", "invariant", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-identity.git"
-        "v4.0.0"
+        "v4.1.0"
     , integers =
         mkPackage
         [ "globals", "math", "maybe", "prelude" ]
@@ -499,7 +499,7 @@ in  { arrays =
         , "type-equality"
         ]
         "https://github.com/purescript/purescript-tuples.git"
-        "v5.0.0"
+        "v5.1.0"
     , type-equality =
         mkPackage
         ([] : List Text)

@@ -63,7 +63,7 @@ in  { chanpon =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v4.2.0"
+        "v4.3.0"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
