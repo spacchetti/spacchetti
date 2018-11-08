@@ -271,7 +271,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-const.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "contravariant": {
     "dependencies": [
@@ -385,7 +385,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "email-validate": {
     "dependencies": [
@@ -767,7 +767,7 @@
       "variant"
     ],
     "repo": "https://github.com/natefaubion/purescript-heterogeneous.git",
-    "version": "v0.2.0"
+    "version": "v0.3.0"
   },
   "http-methods": {
     "dependencies": [
@@ -787,7 +787,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-identity.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "integers": {
     "dependencies": [
@@ -1488,6 +1488,8 @@
   },
   "react-basic": {
     "dependencies": [
+      "aff",
+      "console",
       "effect",
       "exceptions",
       "functions",
@@ -1496,10 +1498,11 @@
       "typelevel-prelude",
       "unsafe-coerce",
       "web-dom",
-      "web-events"
+      "web-events",
+      "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v3.0.0"
+    "version": "v4.0.2"
   },
   "react-dom": {
     "dependencies": [
@@ -1647,7 +1650,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.2.0"
+    "version": "v4.3.0"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -1907,7 +1910,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-tuples.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "type-equality": {
     "dependencies": [],

@@ -2,7 +2,9 @@
 
 in  { react-basic =
         mkPackage
-        [ "effect"
+        [ "aff"
+        , "console"
+        , "effect"
         , "exceptions"
         , "functions"
         , "nullable"
@@ -11,6 +13,7 @@ in  { react-basic =
         , "unsafe-coerce"
         , "web-dom"
         , "web-events"
+        , "web-html"
         ]
         "https://github.com/lumihq/purescript-react-basic.git"
         "v4.0.2"
