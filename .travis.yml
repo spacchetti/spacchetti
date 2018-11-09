@@ -1,2 +1,5 @@
+sudo: required
+dist: trusty
 language: nix
-script: nix-shell easy-purescript.nix --run 'make ci'
+script:
+  - nix-shell --run make
