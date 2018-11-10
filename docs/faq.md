@@ -8,9 +8,9 @@ It's a package set for psc-package that uses a language that almost acts like SA
 
 ## Why should I use Spacchetti over normal Psc-Package?
 
-First, make sure to read the short explanation of Psc-Package: https://spacchetti.readthedocs.io/en/latest/intro.html
+First, make sure to read the short explanation of Psc-Package: <https://spacchetti.readthedocs.io/en/latest/intro.html>
 
-Then read the explanation of why and how Dhall is used: https://spacchetti.readthedocs.io/en/latest/why-dhall.html
+Then read the explanation of why and how Dhall is used: <https://spacchetti.readthedocs.io/en/latest/why-dhall.html>
 
 In short, because package sets are annoying to edit when they're only in JSON form, but using Dhall can make working with this information much easier.
 
