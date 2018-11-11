@@ -174,7 +174,7 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
         "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
-        "v4.1.0"
+        "v5.0.0"
     , parsing =
         mkPackage
         [ "arrays"

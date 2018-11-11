@@ -5,5 +5,5 @@ steps:
 - script: |
     curl https://nixos.org/nix/install | sh
     . /home/vsts/.nix-profile/etc/profile.d/nix.sh
-    nix-shell easy-purescript.nix --run 'make ci'
+    nix-shell easy-purescript.nix --run 'make old-ci'
   displayName: 'Install deps and run'

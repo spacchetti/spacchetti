@@ -113,7 +113,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v4.1.0"
+    "version": "v5.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
