@@ -38,6 +38,7 @@ install-all-packages-nix:
 ci: setup-only install-all-packages-nix
 	date
 	psc-package build -d || psc-package verify
+	psc-package verify
 	date
 
 old-ci: setup-only
