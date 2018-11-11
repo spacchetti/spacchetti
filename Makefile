@@ -21,5 +21,17 @@ setup-only:
 	@cp packages.json .psc-package/testing/.set/packages.json
 	@echo setup testing package set
 
-ci: setup-only
+install-all-packages-nix:
+	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": ' > psc-package.json
+	@jq 'keys | map(select (. != "assert")) ' packages.json >> psc-package.json
+	@echo '}' >> psc-package.json
+	psc-package2nix
+	cachix use spacchetti
+	nix-shell install-deps.nix --run 'echo installation complete.'
+	nix-build get-package-inputs.nix | cachix push spacchetti
+
+ci: setup-only install-all-packages-nix
+	psc-package verify
+
+old-ci: setup-only
 	psc-package verify
