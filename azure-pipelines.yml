@@ -3,7 +3,12 @@ pool:
 
 steps:
 - script: |
-    curl https://nixos.org/nix/install | sh
-    . /home/vsts/.nix-profile/etc/profile.d/nix.sh
-    nix-shell easy-purescript.nix --run 'make ci'
+    echo "does this work? $spacchetti_test"
+    echo "does this work? $spacchetti_test2"
+    echo "does this work? $spacchetti_test3"
+    echo "HELLO $TEST_VALUE1"
+    echo "censored maybe $TEST_VALUE2"
+    echo "CENSORED $TEST_VALUE3"
+    echo "HELLo $TEST_VALUE4"
+    echo "HELLO $PIPELINE_VAR_HELLO"
   displayName: 'Install deps and run'
