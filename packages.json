@@ -215,16 +215,6 @@
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
     "version": "v5.0.0"
   },
-  "chanpon": {
-    "dependencies": [
-      "effect",
-      "node-sqlite3",
-      "prelude",
-      "record"
-    ],
-    "repo": "https://github.com/justinwoo/purescript-chanpon.git",
-    "version": "v1.0.0"
-  },
   "chirashi": {
     "dependencies": [
       "exceptions",
@@ -1151,7 +1141,7 @@
       "foreign"
     ],
     "repo": "https://github.com/justinwoo/purescript-node-sqlite3",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "node-streams": {
     "dependencies": [

@@ -1,11 +1,6 @@
     let mkPackage = ./../mkPackage.dhall
 
-in  { chanpon =
-        mkPackage
-        [ "effect", "node-sqlite3", "prelude", "record" ]
-        "https://github.com/justinwoo/purescript-chanpon.git"
-        "v1.0.0"
-    , gomtang-basic =
+in  { gomtang-basic =
         mkPackage
         [ "console", "effect", "prelude", "record", "web-html" ]
         "https://github.com/justinwoo/purescript-gomtang-basic.git"
