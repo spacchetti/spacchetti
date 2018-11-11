@@ -25,13 +25,22 @@ install-all-packages-nix:
 	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": ' > psc-package.json
 	@jq 'keys | map(select (. != "assert")) ' packages.json >> psc-package.json
 	@echo '}' >> psc-package.json
+	date
 	psc-package2nix
+	date
 	cachix use spacchetti
+	date
 	nix-shell install-deps.nix --run 'echo installation complete.'
+	date
 	nix-build get-package-inputs.nix | cachix push spacchetti
+	date
 
 ci: setup-only install-all-packages-nix
+	date
 	psc-package verify
+	date
 
 old-ci: setup-only
+	date
 	psc-package verify
+	date

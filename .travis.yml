@@ -8,5 +8,7 @@ cache:
 before_script:
 - sudo mkdir -p /etc/nix
 script:
+  - date
   - nix-env -iA cachix -f https://github.com/NixOS/nixpkgs/tarball/889c72032f8595fcd7542c6032c208f6b8033db6
+  - date
   - nix-shell easy-purescript.nix --run 'make ci'
