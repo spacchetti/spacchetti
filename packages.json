@@ -73,10 +73,11 @@
       "foreign-object",
       "integers",
       "maybe",
-      "ordered-collections"
+      "ordered-collections",
+      "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v4.0.2"
+    "version": "v5.0.0"
   },
   "argonaut-core": {
     "dependencies": [
@@ -103,7 +104,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v2.0.0"
+    "version": "v2.1.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -112,7 +113,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v4.0.1"
+    "version": "v4.1.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -260,7 +261,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-console.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "const": {
     "dependencies": [
@@ -539,10 +540,11 @@
       "st",
       "tailrec",
       "tuples",
+      "typelevel-prelude",
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-foreign-object.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "fork": {
     "dependencies": [
@@ -734,12 +736,22 @@
     "repo": "https://github.com/slamdata/purescript-halogen-css.git",
     "version": "v8.0.0"
   },
+  "halogen-renderless": {
+    "dependencies": [
+      "control",
+      "halogen",
+      "prelude"
+    ],
+    "repo": "https://github.com/thomashoneyman/purescript-halogen-renderless.git",
+    "version": "v0.0.3"
+  },
   "halogen-select": {
     "dependencies": [
-      "halogen"
+      "halogen",
+      "halogen-renderless"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v2.0.0"
+    "version": "v3.0.1"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -1757,7 +1769,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-strings.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "strongcheck": {
     "dependencies": [
@@ -2009,7 +2021,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/natefaubion/purescript-variant.git",
-    "version": "v5.1.0"
+    "version": "v5.2.0"
   },
   "web-clipboard": {
     "dependencies": [
@@ -2032,7 +2044,7 @@
       "nullable"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
-    "version": "v1.0.0"
+    "version": "v1.0.1"
   },
   "web-file": {
     "dependencies": [

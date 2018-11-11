@@ -28,6 +28,7 @@
           ⫽ ./groups/paluh.dhall
           ⫽ ./groups/fehrenbach.dhall
           ⫽ ./groups/brandonhamilton.dhall
+          ⫽ ./groups/thomashoneyman.dhall
           ⫽ ./groups/rnons.dhall
           ⫽ ./groups/justinwoo.dhall
 

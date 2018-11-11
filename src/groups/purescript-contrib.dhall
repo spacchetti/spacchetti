@@ -12,9 +12,10 @@ in  { aff-coroutines =
         , "integers"
         , "maybe"
         , "ordered-collections"
+        , "record"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v4.0.2"
+        "v5.0.0"
     , argonaut-core =
         mkPackage
         [ "arrays"
@@ -173,7 +174,7 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "profunctor-lenses" ]
         "https://github.com/purescript-contrib/purescript-argonaut-traversals.git"
-        "v4.0.1"
+        "v4.1.0"
     , parsing =
         mkPackage
         [ "arrays"
@@ -225,5 +226,5 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
         "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
-        "v2.0.0"
+        "v2.1.0"
     }

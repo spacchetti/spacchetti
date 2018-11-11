@@ -1,6 +1,8 @@
 #!/usr/bin/env perl
 
 use warnings;
+use strict;
+use feature 'say';
 
 =head1 prepare-bower.pl
 
@@ -54,9 +56,17 @@ unless ($dependenciesCheck eq 'null') {
 
 chomp(my $version = `cat $json | jq '.latest.version'`);
 chomp(my $url = `cat $json | jq '.latest.repository.url'`);
-$url =~ s/git:/https:/;
-$url =~ s/com:/com\//;
-$url =~ s/git@/https:\/\//g;
+if ($url eq 'null') {
+  # naively use homepage if url isn't specified for repo
+  chomp($url = `cat $json | jq '.latest.homepage'`);
+  $url =~ s/"//g;
+  $url .= '.git';
+  $url = '"' . $url . '"';
+} else {
+  $url =~ s/git:/https:/;
+  $url =~ s/com:/com\//;
+  $url =~ s/git@/https:\/\//g;
+}
 
 # bower doesn't believe in telling us the correct tag names
 unless ($version =~ /v/) {

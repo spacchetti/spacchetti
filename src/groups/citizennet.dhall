@@ -2,7 +2,7 @@
 
 in  { halogen-select =
         mkPackage
-        [ "halogen" ]
+        [ "halogen", "halogen-renderless" ]
         "https://github.com/citizennet/purescript-halogen-select.git"
-        "v2.0.0"
+        "v3.0.1"
     }
