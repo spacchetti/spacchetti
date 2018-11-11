@@ -1,6 +1,9 @@
 #!/usr/bin/env perl
 
 use warnings;
+use strict;
+use feature 'say';
+use FindBin '$RealBin';
 
 =head1 from-bower.pl
 
@@ -20,7 +23,6 @@ Example:
      Wrote new package behaviors to group file src/groups/paf31.dhall
 
 =cut
-use FindBin '$RealBin';
 
 my $numArgs = $#ARGV;
 

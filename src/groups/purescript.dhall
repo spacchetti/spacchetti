@@ -43,7 +43,7 @@ in  { arrays =
         mkPackage
         [ "effect", "prelude" ]
         "https://github.com/purescript/purescript-console.git"
-        "v4.1.0"
+        "v4.2.0"
     , const =
         mkPackage
         [ "contravariant"
@@ -162,10 +162,11 @@ in  { arrays =
         , "st"
         , "tailrec"
         , "tuples"
+        , "typelevel-prelude"
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-foreign-object.git"
-        "v1.0.0"
+        "v1.1.0"
     , free =
         mkPackage
         [ "catenable-lists"
@@ -454,7 +455,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-strings.git"
-        "v4.0.0"
+        "v4.0.1"
     , tailrec =
         mkPackage
         [ "bifunctors"
