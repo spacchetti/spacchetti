@@ -135,3 +135,7 @@ If you think "official" is a thing, then you shouldn't.
 ### Can I get additional help?
 
 Probably. Message me in some way (e.g. Twitter, FP Slack, or open an issue) and let's see what the nature of the issue is. If you need a lot of help, you can hire me part time.
+
+### Does ___ in `scripts/` mean ____?
+
+No, these are just garbage scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spacchetti-CLI.
