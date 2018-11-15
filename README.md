@@ -139,3 +139,7 @@ Probably. Message me in some way (e.g. Twitter, FP Slack, or open an issue) and 
 ### Does ___ in `scripts/` mean ____?
 
 No, these are just garbage scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spacchetti-CLI.
+
+### Can I use packages from Bower?
+
+You can use anything that is a git repository, which mean every Bower dependency and others. See the local setup docs if you want to locally add them to a project: <https://spacchetti.readthedocs.io/en/latest/local-setup.html>
