@@ -1,4 +1,4 @@
-    let mkPackage = ./../mkPackage.dhall
+let mkPackage = ./../mkPackage.dhall
 
 in  { errors =
         mkPackage
