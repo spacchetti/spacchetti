@@ -135,7 +135,7 @@ in  { arrays =
         mkPackage
         [ "bifunctors", "control", "maybe", "newtype", "orders", "prelude" ]
         "https://github.com/purescript/purescript-foldable-traversable.git"
-        "v4.1.0"
+        "v4.1.1"
     , foreign =
         mkPackage
         [ "either"
