@@ -19,7 +19,7 @@ in  { web-clipboard =
         mkPackage
         [ "foreign", "media-types", "web-dom" ]
         "https://github.com/purescript-web/purescript-web-file.git"
-        "v1.0.0"
+        "v1.1.0"
     , web-html =
         mkPackage
         [ "js-date", "web-dom", "web-file", "web-storage" ]
