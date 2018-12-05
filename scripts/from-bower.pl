@@ -57,7 +57,7 @@ if ($check eq 'null') {
         my $output = $string . ",$result}";
         close $read;
 
-        open my $write, '>', $file or die "Couldn't open file $file";
+        open my $write, '>', $file or die "Couldn't open existing file $file";
         print $write $output;
         close $write;
         print `make format`;
@@ -66,7 +66,7 @@ if ($check eq 'null') {
     } else {
         my $output = "let mkPackage = ./../mkPackage.dhall in {$result}";
 
-        open my $write, '>', $file or die "Couldn't open file $file";
+        open my $write, '>', $file or die "Couldn't open new file $file";
         print $write $output;
         close $write;
         print `make format`;
@@ -79,12 +79,12 @@ if ($check eq 'null') {
     chomp(my $url = `cat $json | jq '.latest.repository.url' -r`);
 
     local $/ = undef;
-    open my $read, $file or die "Couldn't open file $file";
+    open my $read, $file or die "Couldn't open existing file $file";
     my $string = <$read>;
     $string =~ s/(https:\/\/.*purescript-$input(\.git|)"[^"]*").*(")/$1$version$3/;
     close $read;
 
-    open my $write, '>', $file or die "Couldn't open file $file";
+    open my $write, '>', $file or die "Couldn't open new file $file";
     print $write $string;
     close $write;
     print `make format`;

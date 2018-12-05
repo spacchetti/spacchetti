@@ -65,7 +65,7 @@
       "argonaut-traversals"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut.git",
-    "version": "v4.0.1"
+    "version": "v5.0.0"
   },
   "argonaut-codecs": {
     "dependencies": [
@@ -113,7 +113,7 @@
       "profunctor-lenses"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-traversals.git",
-    "version": "v5.0.0"
+    "version": "v6.0.0"
   },
   "arraybuffer-types": {
     "dependencies": [],
@@ -136,7 +136,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-arrays.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "assert": {
     "dependencies": [
@@ -376,7 +376,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-either.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "email-validate": {
     "dependencies": [
@@ -632,7 +632,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/purescript/purescript-functors.git",
-    "version": "v3.1.0"
+    "version": "v3.1.1"
   },
   "gen": {
     "dependencies": [
@@ -934,7 +934,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-maybe.git",
-    "version": "v4.0.0"
+    "version": "v4.0.1"
   },
   "media-types": {
     "dependencies": [
@@ -984,11 +984,12 @@
   },
   "mmorph": {
     "dependencies": [
+      "free",
       "functors",
       "transformers"
     ],
     "repo": "https://github.com/Thimoteus/purescript-mmorph.git",
-    "version": "v5.0.0"
+    "version": "v5.1.0"
   },
   "naporitan": {
     "dependencies": [
@@ -1689,29 +1690,7 @@
       "strings",
       "transformers"
     ],
-    "repo": "https://github.com/owickstrom/purescript-spec.git",
-    "version": "v3.0.0"
-  },
-  "spec-discovery": {
-    "dependencies": [
-      "arrays",
-      "effect",
-      "node-fs",
-      "prelude",
-      "spec"
-    ],
-    "repo": "https://github.com/owickstrom/purescript-spec-discovery.git",
-    "version": "v3.1.0"
-  },
-  "spec-quickcheck": {
-    "dependencies": [
-      "aff",
-      "prelude",
-      "quickcheck",
-      "random",
-      "spec"
-    ],
-    "repo": "https://github.com/owickstrom/purescript-spec-quickcheck.git",
+    "repo": "https://github.com/purescript-spec/purescript-spec.git",
     "version": "v3.1.0"
   },
   "st": {
@@ -2083,7 +2062,7 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
-    "version": "v1.0.0"
+    "version": "v1.1.0"
   },
   "web-xhr": {
     "dependencies": [

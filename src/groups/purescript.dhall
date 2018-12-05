@@ -16,7 +16,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-arrays.git"
-        "v5.1.0"
+        "v5.1.1"
     , assert =
         mkPackage
         [ "console", "effect", "prelude" ]
@@ -105,7 +105,7 @@ in  { arrays =
         , "prelude"
         ]
         "https://github.com/purescript/purescript-either.git"
-        "v4.1.0"
+        "v4.1.1"
     , enums =
         mkPackage
         [ "control"
@@ -205,7 +205,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-functors.git"
-        "v3.1.0"
+        "v3.1.1"
     , gen =
         mkPackage
         [ "either"
@@ -289,7 +289,7 @@ in  { arrays =
         mkPackage
         [ "control", "invariant", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-maybe.git"
-        "v4.0.0"
+        "v4.0.1"
     , newtype =
         mkPackage
         [ "prelude" ]
