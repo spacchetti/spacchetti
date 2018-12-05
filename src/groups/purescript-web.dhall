@@ -39,7 +39,7 @@ in  { web-clipboard =
         mkPackage
         [ "web-html" ]
         "https://github.com/purescript-web/purescript-web-uievents.git"
-        "v1.0.0"
+        "v1.1.0"
     , web-xhr =
         mkPackage
         [ "arraybuffer-types"

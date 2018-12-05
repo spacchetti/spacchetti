@@ -15,7 +15,7 @@ let packages =
       ⫽ ./groups/hdgarrood.dhall
       ⫽ ./groups/kcsongor.dhall
       ⫽ ./groups/morganthomas.dhall
-      ⫽ ./groups/owickstrom.dhall
+      ⫽ ./groups/purescript-spec.dhall
       ⫽ ./groups/sharkdp.dhall
       ⫽ ./groups/slamdata.dhall
       ⫽ ./groups/lumihq.dhall
