@@ -9,7 +9,7 @@ use feature 'say';
 
 This is a script for calling `from-bower` on all packages defined in the `packages.json` file. Make sure to delete `bower-info/` to not use cached information.
 
-See L<the Spachetti repository|https://github.com/justinwoo/spacchetti> for more details.
+See L<the Spachetti repository|https://github.com/spacchetti/spacchetti> for more details.
 
 =cut
 

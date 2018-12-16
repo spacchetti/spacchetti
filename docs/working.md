@@ -31,7 +31,7 @@ To actually use your new package set, you must create a new git tag and push it 
 {
   "name": "EXAMPLE",
   "set": "160618", // GIT TAG NAME
-  "source": "https://github.com/justinwoo/spacchetti.git", // PACKAGE SET REPO URL
+  "source": "https://github.com/spacchetti/spacchetti.git", // PACKAGE SET REPO URL
   "depends": [
     "console",
     "prelude"

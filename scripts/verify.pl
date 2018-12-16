@@ -8,7 +8,7 @@ This is a script for verifying a given package after setting up the package set.
 
 Set up the package set by running `make setup`.
 
-See L<the Spachetti repository|https://github.com/justinwoo/spacchetti> for more details.
+See L<the Spachetti repository|https://github.com/spacchetti/spacchetti> for more details.
 
 Usage:
 

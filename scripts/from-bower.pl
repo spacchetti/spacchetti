@@ -9,7 +9,7 @@ use FindBin '$RealBin';
 
 This is a script for calling prepare-bower.pl in Spacchetti to add or update a package definition using mkPackage to a package group.
 
-See L<the Spachetti repository|https://github.com/justinwoo/spacchetti> for more details.
+See L<the Spachetti repository|https://github.com/spacchetti/spacchetti> for more details.
 
 Usage:
 

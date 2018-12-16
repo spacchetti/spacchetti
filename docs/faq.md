@@ -14,7 +14,7 @@ Then read the explanation of why and how Dhall is used: <https://spacchetti.read
 
 In short, because package sets are annoying to edit when they're only in JSON form, but using Dhall can make working with this information much easier.
 
-## Does Spacchetti CLI replace Psc-Package?
+## Does Spago replace Psc-Package?
 
-No, Spacchetti CLI only does some simple tasks that generate files and use Dhall to prepare Psc-Package package sets. There are no overlapping commands with Psc-Package.
+Yes and no. See the Spago project for the full details on what it is and how it is the similar and different from Psc-Package: <https://github.com/spacchetti/spago>
 
