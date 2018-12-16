@@ -89,7 +89,7 @@ in  { gomtang-basic =
         , "typelevel-prelude"
         ]
         "https://github.com/justinwoo/purescript-tortellini.git"
-        "v3.0.0"
+        "v4.0.0"
     , node-telegram-bot-api =
         mkPackage
         [ "strings", "foreign", "aff", "simple-json" ]

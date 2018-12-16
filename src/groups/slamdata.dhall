@@ -11,7 +11,7 @@ in  { aff =
         , "unsafe-coerce"
         ]
         "https://github.com/slamdata/purescript-aff.git"
-        "v5.0.2"
+        "v5.1.0"
     , affjax =
         mkPackage
         [ "aff"
