@@ -6,7 +6,7 @@ For example, we could patch `typelevel-prelude` locally in such a way in a proje
 
 ```hs
     let mkPackage =
-          https://raw.githubusercontent.com/justinwoo/spacchetti/190618/src/mkPackage.dhall
+          https://raw.githubusercontent.com/spacchetti/spacchetti/190618/src/mkPackage.dhall
 
 in  let overrides =
           { typelevel-prelude =
@@ -16,7 +16,7 @@ in  let overrides =
               "prim-boolean"
           }
 
-in    https://raw.githubusercontent.com/justinwoo/spacchetti/190618/src/packages.dhall
+in    https://raw.githubusercontent.com/spacchetti/spacchetti/190618/src/packages.dhall
     ⫽ overrides
 ```
 

@@ -1,6 +1,6 @@
 # Spacchetti
 
-[![Build Status](https://travis-ci.org/justinwoo/spacchetti.svg?branch=master)](https://travis-ci.org/justinwoo/spacchetti)
+[![Build Status](https://travis-ci.org/spacchetti/spacchetti.svg?branch=master)](https://travis-ci.org/spacchetti/spacchetti)
 
 [![Build Status](https://dev.azure.com/justinw2/justin-project/_apis/build/status/justinwoo.spacchetti)](https://dev.azure.com/justinw2/justin-project/_build/latest?definitionId=1)
 
@@ -81,7 +81,7 @@ To actually use your new package set, you must create a new git tag and push it 
 {
   "name": "EXAMPLE",
   "set": "160618", // GIT TAG NAME
-  "source": "https://github.com/justinwoo/spacchetti.git", // PACKAGE SET REPO URL
+  "source": "https://github.com/spacchetti/spacchetti.git", // PACKAGE SET REPO URL
   "depends": [
     "console",
     "prelude"
@@ -138,7 +138,7 @@ Probably. Message me in some way (e.g. Twitter, FP Slack, or open an issue) and 
 
 ### Does ___ in `scripts/` mean ____?
 
-No, these are just garbage scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spacchetti-CLI.
+No, these are just garbage scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spago.
 
 ### Can I use packages from Bower?
 

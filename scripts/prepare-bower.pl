@@ -8,7 +8,7 @@ use feature 'say';
 
 This is a script for preparing a snippet for adding to a Dhall file of Spacchetti package definitions.
 
-See L<the Spachetti repository|https://github.com/justinwoo/spacchetti> for more details.
+See L<the Spachetti repository|https://github.com/spacchetti/spacchetti> for more details.
 
 Usage:
 
