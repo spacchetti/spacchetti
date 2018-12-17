@@ -9,7 +9,7 @@ copy a given package of ours to theirs
 use warnings;
 use strict;
 
-my ($pkg, $version) = @ARGV;
+my ($pkg) = @ARGV;
 
 my $target = "../package-sets/packages.json";
 my $packages = "packages.json";
