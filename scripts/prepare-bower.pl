@@ -66,6 +66,10 @@ if ($url eq 'null') {
   $url =~ s/git:/https:/;
   $url =~ s/com:/com\//;
   $url =~ s/git@/https:\/\//g;
+  unless ($url =~ /\.git"$/) {
+    chop $url;
+    $url .= '.git"';
+  }
 }
 
 # bower doesn't believe in telling us the correct tag names
