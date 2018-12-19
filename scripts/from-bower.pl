@@ -77,7 +77,7 @@ if ($check eq 'null') {
     local $/ = undef;
     open my $read, $file or die "Couldn't open existing file $file";
     my $string = <$read>;
-    $string =~ s/$input =\s*mkPackage\s*\[[^\]]*\][^"]*"[^\s]*"\s*"[^\s]*"/$result/s;
+    $string =~ s/ $input =\s*mkPackage\s*\[[^\]]*\][^"]*"[^\s]*"\s*"[^\s]*"/$result/s;
     close $read;
 
     open my $write, '>', $file or die "Couldn't open new file $file";
