@@ -1911,7 +1911,8 @@
       "partial",
       "prelude",
       "tuples",
-      "typelevel-prelude"
+      "typelevel-prelude",
+      "unsafe-coerce"
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v4.0.0"
