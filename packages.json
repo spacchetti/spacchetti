@@ -70,9 +70,11 @@
   "argonaut-codecs": {
     "dependencies": [
       "argonaut-core",
+      "arrays",
       "foreign-object",
       "integers",
       "maybe",
+      "nonempty",
       "ordered-collections",
       "record"
     ],
@@ -231,7 +233,7 @@
       "record",
       "typelevel-prelude"
     ],
-    "repo": "https://github.com/justinwoo/purescript-choco-pie.git",
+    "repo": "https://github.com/justinwoo/purescript-chocopie.git",
     "version": "v3.0.0"
   },
   "colors": {
@@ -449,7 +451,6 @@
   "expect-inferred": {
     "dependencies": [
       "prelude",
-      "type-isequal",
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
@@ -1121,7 +1122,7 @@
       "prelude",
       "unsafe-coerce"
     ],
-    "repo": "https://github.com/purescript-node/purescript-node-process",
+    "repo": "https://github.com/purescript-node/purescript-node-process.git",
     "version": "v6.0.0"
   },
   "node-readline": {
@@ -1141,7 +1142,7 @@
       "aff",
       "foreign"
     ],
-    "repo": "https://github.com/justinwoo/purescript-node-sqlite3",
+    "repo": "https://github.com/justinwoo/purescript-node-sqlite3.git",
     "version": "v6.0.0"
   },
   "node-streams": {
@@ -1343,7 +1344,7 @@
       "maybe",
       "prelude"
     ],
-    "repo": "https://github.com/purescript-node/purescript-posix-types",
+    "repo": "https://github.com/purescript-node/purescript-posix-types.git",
     "version": "v4.0.0"
   },
   "prelude": {
@@ -1910,8 +1911,7 @@
       "partial",
       "prelude",
       "tuples",
-      "typelevel-prelude",
-      "unsafe-coerce"
+      "typelevel-prelude"
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
     "version": "v4.0.0"
@@ -1948,6 +1948,7 @@
   "unordered-collections": {
     "dependencies": [
       "enums",
+      "functions",
       "integers",
       "prelude",
       "record",

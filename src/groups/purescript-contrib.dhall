@@ -8,9 +8,11 @@ in  { aff-coroutines =
     , argonaut-codecs =
         mkPackage
         [ "argonaut-core"
+        , "arrays"
         , "foreign-object"
         , "integers"
         , "maybe"
+        , "nonempty"
         , "ordered-collections"
         , "record"
         ]
@@ -136,18 +138,18 @@ in  { aff-coroutines =
     , react =
         mkPackage
         [ "effect"
-        , "prelude"
-        , "unsafe-coerce"
         , "exceptions"
         , "maybe"
         , "nullable"
+        , "prelude"
         , "typelevel-prelude"
+        , "unsafe-coerce"
         ]
         "https://github.com/purescript-contrib/purescript-react.git"
         "v6.1.0"
     , react-dom =
         mkPackage
-        [ "web-dom", "react", "effect" ]
+        [ "effect", "react", "web-dom" ]
         "https://github.com/purescript-contrib/purescript-react-dom.git"
         "v6.0.0"
     , these =

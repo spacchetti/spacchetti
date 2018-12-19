@@ -33,7 +33,7 @@ in  { gomtang-basic =
     , node-sqlite3 =
         mkPackage
         [ "aff", "foreign" ]
-        "https://github.com/justinwoo/purescript-node-sqlite3"
+        "https://github.com/justinwoo/purescript-node-sqlite3.git"
         "v6.0.0"
     , record-extra =
         mkPackage
@@ -92,17 +92,17 @@ in  { gomtang-basic =
         "v4.0.0"
     , node-telegram-bot-api =
         mkPackage
-        [ "strings", "foreign", "aff", "simple-json" ]
+        [ "aff", "foreign", "simple-json", "strings" ]
         "https://github.com/justinwoo/purescript-node-telegram-bot-api.git"
         "v4.0.0"
     , choco-pie =
         mkPackage
-        [ "prelude", "event", "typelevel-prelude", "record" ]
-        "https://github.com/justinwoo/purescript-choco-pie.git"
+        [ "event", "prelude", "record", "typelevel-prelude" ]
+        "https://github.com/justinwoo/purescript-chocopie.git"
         "v3.0.0"
     , expect-inferred =
         mkPackage
-        [ "prelude", "type-isequal", "typelevel-prelude" ]
+        [ "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-expect-inferred.git"
         "v0.2.0"
     , type-isequal =
