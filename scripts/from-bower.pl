@@ -74,14 +74,10 @@ if ($check eq 'null') {
         print "Wrote new package $input to group file $file\n";
     }
 } else {
-    my $json = "bower-info/$input.json";
-    chomp(my $version = "v" . `cat $json | jq '.latest.version' -r`);
-    chomp(my $url = `cat $json | jq '.latest.repository.url' -r`);
-
     local $/ = undef;
     open my $read, $file or die "Couldn't open existing file $file";
     my $string = <$read>;
-    $string =~ s/(https:\/\/.*purescript-$input(\.git|)"[^"]*").*(")/$1$version$3/;
+    $string =~ s/$input =\s*mkPackage\s*\[[^\]]*\][^"]*"[^\s]*"\s*"[^\s]*"/$result/s;
     close $read;
 
     open my $write, '>', $file or die "Couldn't open new file $file";
@@ -89,5 +85,5 @@ if ($check eq 'null') {
     close $write;
     print `make format`;
 
-    print "Updated $input to $version in $file\n";
+    print "Updated $input in $file\n";
 }
