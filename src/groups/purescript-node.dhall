@@ -80,7 +80,7 @@ in  { node-buffer =
         , "prelude"
         , "unsafe-coerce"
         ]
-        "https://github.com/purescript-node/purescript-node-process"
+        "https://github.com/purescript-node/purescript-node-process.git"
         "v6.0.0"
     , node-readline =
         mkPackage
@@ -106,6 +106,6 @@ in  { node-buffer =
     , posix-types =
         mkPackage
         [ "maybe", "prelude" ]
-        "https://github.com/purescript-node/purescript-posix-types"
+        "https://github.com/purescript-node/purescript-posix-types.git"
         "v4.0.0"
     }
