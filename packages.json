@@ -1506,7 +1506,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v6.0.0"
+    "version": "v6.2.0"
   },
   "react-dom": {
     "dependencies": [

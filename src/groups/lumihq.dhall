@@ -16,5 +16,5 @@ in  { react-basic =
         , "web-html"
         ]
         "https://github.com/lumihq/purescript-react-basic.git"
-        "v6.0.0"
+        "v6.2.0"
     }
