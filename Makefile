@@ -28,5 +28,7 @@ psc-package2nix: setup
 	psc-package2nix
 	nix-shell install-deps.nix --run "echo installation complete."
 
-ci: setup-only
+ci: generate setup-only
+	echo "Checking if packages.json has changed..."
+	git diff --exit-code packages.json
 	psc-package verify
