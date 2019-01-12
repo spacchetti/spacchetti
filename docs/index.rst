@@ -13,6 +13,7 @@ Pages
   intro
   why-dhall
   working
+  spago
   local-setup
   local-setup-manual
   faq
