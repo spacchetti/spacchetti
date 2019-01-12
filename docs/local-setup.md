@@ -1,6 +1,6 @@
 # Project-Local setup
 
-There's now a CLI for the repetitive boilerplate generation and task running parts here: <https://github.com/spacchetti/spago>
+There's now a CLI: <https://github.com/spacchetti/spago>. This CLI can both use Dhall package information directly or set up the local project for you.
 
 See the example repo here: <https://github.com/spacchetti/spacchetti-local-setup-example>
 
