@@ -104,7 +104,7 @@ in  { aff-coroutines =
         mkPackage
         [ "functions", "maybe" ]
         "https://github.com/purescript-contrib/purescript-nullable.git"
-        "v4.1.0"
+        "v4.1.1"
     , options =
         mkPackage
         [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
