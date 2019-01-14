@@ -79,7 +79,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v5.1.0"
+    "version": "v5.1.1"
   },
   "argonaut-core": {
     "dependencies": [
@@ -106,7 +106,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-generic.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "argonaut-traversals": {
     "dependencies": [
@@ -742,7 +742,7 @@
       "halogen-renderless"
     ],
     "repo": "https://github.com/citizennet/purescript-halogen-select.git",
-    "version": "v3.0.2"
+    "version": "v4.0.0"
   },
   "halogen-vdom": {
     "dependencies": [
@@ -1199,7 +1199,7 @@
       "maybe"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-nullable.git",
-    "version": "v4.1.0"
+    "version": "v4.1.1"
   },
   "numbers": {
     "dependencies": [

@@ -17,7 +17,7 @@ in  { aff-coroutines =
         , "record"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v5.1.0"
+        "v5.1.1"
     , argonaut-core =
         mkPackage
         [ "arrays"
@@ -104,7 +104,7 @@ in  { aff-coroutines =
         mkPackage
         [ "functions", "maybe" ]
         "https://github.com/purescript-contrib/purescript-nullable.git"
-        "v4.1.0"
+        "v4.1.1"
     , options =
         mkPackage
         [ "contravariant", "foreign", "foreign-object", "maybe", "tuples" ]
@@ -228,5 +228,5 @@ in  { aff-coroutines =
         mkPackage
         [ "argonaut-codecs", "argonaut-core", "generics-rep", "record" ]
         "https://github.com/purescript-contrib/purescript-argonaut-generic.git"
-        "v3.0.0"
+        "v4.0.0"
     }
