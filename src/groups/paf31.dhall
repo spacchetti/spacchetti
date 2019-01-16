@@ -78,4 +78,8 @@ in  { event =
         [ "free", "functors", "transformers" ]
         "https://github.com/paf31/purescript-pairing.git"
         "v5.1.0"
+    , leibniz =
+        mkPackage
+        [ "prelude", "unsafe-coerce", "exists", "console" ]
+        "v5.0.0"
     }
