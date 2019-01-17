@@ -869,6 +869,16 @@
     "repo": "https://github.com/purescript/purescript-lcg.git",
     "version": "v2.0.0"
   },
+  "leibniz": {
+    "dependencies": [
+      "console",
+      "exists",
+      "prelude",
+      "unsafe-coerce"
+    ],
+    "repo": "https://github.com/paf31/purescript-leibniz.git",
+    "version": "v5.0.0"
+  },
   "lenient-html-parser": {
     "dependencies": [
       "console",
