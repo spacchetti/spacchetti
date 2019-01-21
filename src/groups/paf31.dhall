@@ -80,7 +80,7 @@ in  { event =
         "v5.1.0"
     , leibniz =
         mkPackage
-        [ "prelude", "unsafe-coerce", "exists", "console" ]
+        [ "prelude", "unsafe-coerce" ]
         "https://github.com/paf31/purescript-leibniz.git"
         "v5.0.0"
     }

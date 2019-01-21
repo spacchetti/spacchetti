@@ -525,7 +525,7 @@ in  { arrays =
         mkPackage
         [ "bifunctors", "control", "either", "foldable-traversable", "prelude" ]
         "https://github.com/purescript/purescript-validation.git"
-        "v4.0.0"
+        "v4.1.0"
     , minibench =
         mkPackage
         [ "console"
