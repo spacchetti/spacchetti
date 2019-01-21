@@ -871,8 +871,6 @@
   },
   "leibniz": {
     "dependencies": [
-      "console",
-      "exists",
       "prelude",
       "unsafe-coerce"
     ],
@@ -1516,7 +1514,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v6.2.0"
+    "version": "v7.0.0"
   },
   "react-dom": {
     "dependencies": [
@@ -1987,7 +1985,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
-    "version": "v4.0.0"
+    "version": "v4.1.0"
   },
   "variant": {
     "dependencies": [
