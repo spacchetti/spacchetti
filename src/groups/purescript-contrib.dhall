@@ -17,7 +17,7 @@ in  { aff-coroutines =
         , "record"
         ]
         "https://github.com/purescript-contrib/purescript-argonaut-codecs.git"
-        "v5.1.1"
+        "v5.1.2"
     , argonaut-core =
         mkPackage
         [ "arrays"

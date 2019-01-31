@@ -38,7 +38,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-catenable-lists.git"
-        "v5.0.0"
+        "v5.0.1"
     , console =
         mkPackage
         [ "effect", "prelude" ]
@@ -94,7 +94,7 @@ in  { arrays =
         mkPackage
         [ "prelude" ]
         "https://github.com/purescript/purescript-effect.git"
-        "v2.0.0"
+        "v2.0.1"
     , either =
         mkPackage
         [ "bifunctors"
@@ -225,7 +225,7 @@ in  { arrays =
         mkPackage
         [ "enums", "foldable-traversable", "maybe", "newtype", "prelude" ]
         "https://github.com/purescript/purescript-generics-rep.git"
-        "v6.1.0"
+        "v6.1.1"
     , globals =
         mkPackage
         ([] : List Text)
@@ -510,7 +510,7 @@ in  { arrays =
         mkPackage
         [ "prelude", "proxy", "type-equality" ]
         "https://github.com/purescript/purescript-typelevel-prelude.git"
-        "v3.0.0"
+        "v4.0.0"
     , unfoldable =
         mkPackage
         [ "foldable-traversable", "maybe", "partial", "prelude", "tuples" ]
@@ -523,9 +523,15 @@ in  { arrays =
         "v4.0.0"
     , validation =
         mkPackage
-        [ "bifunctors", "control", "either", "foldable-traversable", "prelude" ]
+        [ "bifunctors"
+        , "control"
+        , "either"
+        , "foldable-traversable"
+        , "newtype"
+        , "prelude"
+        ]
         "https://github.com/purescript/purescript-validation.git"
-        "v4.1.0"
+        "v4.2.0"
     , minibench =
         mkPackage
         [ "console"
