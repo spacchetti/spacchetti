@@ -104,7 +104,7 @@ in  { gomtang-basic =
         mkPackage
         [ "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-expect-inferred.git"
-        "v0.2.0"
+        "v1.0.0"
     , type-isequal =
         mkPackage
         [ "typelevel-prelude" ]

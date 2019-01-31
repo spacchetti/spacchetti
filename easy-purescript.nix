@@ -4,8 +4,8 @@ let
   easy-ps = import (pkgs.fetchFromGitHub {
     owner = "justinwoo";
     repo = "easy-purescript-nix";
-    rev = "dac3520da91bf1b2d152d468700b75be5599b784";
-    sha256 = "02lcmsscbq1k3c8ap03xxbrf4vbwi1al6hsvfsr3sry7xj8f7ca4";
+    rev = "2f56e0895959db39293942786d4d346524360e5b";
+    sha256 = "0vaqn0v6abffzma9gfv5cwknz4kpc3kj50siia5cv2mp752b8w98";
   });
 in pkgs.stdenv.mkDerivation {
   name = "easy-ps-test";

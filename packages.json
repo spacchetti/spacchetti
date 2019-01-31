@@ -79,7 +79,7 @@
       "record"
     ],
     "repo": "https://github.com/purescript-contrib/purescript-argonaut-codecs.git",
-    "version": "v5.1.1"
+    "version": "v5.1.2"
   },
   "argonaut-core": {
     "dependencies": [
@@ -215,7 +215,7 @@
       "unfoldable"
     ],
     "repo": "https://github.com/purescript/purescript-catenable-lists.git",
-    "version": "v5.0.0"
+    "version": "v5.0.1"
   },
   "chirashi": {
     "dependencies": [
@@ -366,7 +366,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-effect.git",
-    "version": "v2.0.0"
+    "version": "v2.0.1"
   },
   "either": {
     "dependencies": [
@@ -454,7 +454,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-expect-inferred.git",
-    "version": "v0.2.0"
+    "version": "v1.0.0"
   },
   "filterable": {
     "dependencies": [
@@ -517,7 +517,7 @@
       "record"
     ],
     "repo": "https://github.com/paf31/purescript-foreign-generic.git",
-    "version": "v7.0.0"
+    "version": "v8.0.0"
   },
   "foreign-object": {
     "dependencies": [
@@ -660,7 +660,7 @@
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-generics-rep.git",
-    "version": "v6.1.0"
+    "version": "v6.1.1"
   },
   "globals": {
     "dependencies": [],
@@ -1514,7 +1514,7 @@
       "web-html"
     ],
     "repo": "https://github.com/lumihq/purescript-react-basic.git",
-    "version": "v7.0.0"
+    "version": "v8.0.0"
   },
   "react-dom": {
     "dependencies": [
@@ -1923,7 +1923,7 @@
       "unsafe-coerce"
     ],
     "repo": "https://github.com/bodil/purescript-typelevel.git",
-    "version": "v4.0.0"
+    "version": "v5.0.0"
   },
   "typelevel-prelude": {
     "dependencies": [
@@ -1932,7 +1932,7 @@
       "type-equality"
     ],
     "repo": "https://github.com/purescript/purescript-typelevel-prelude.git",
-    "version": "v3.0.0"
+    "version": "v4.0.0"
   },
   "unfoldable": {
     "dependencies": [
@@ -1982,10 +1982,11 @@
       "control",
       "either",
       "foldable-traversable",
+      "newtype",
       "prelude"
     ],
     "repo": "https://github.com/purescript/purescript-validation.git",
-    "version": "v4.1.0"
+    "version": "v4.2.0"
   },
   "variant": {
     "dependencies": [
@@ -2032,7 +2033,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-file.git",
-    "version": "v1.1.0"
+    "version": "v1.2.0"
   },
   "web-html": {
     "dependencies": [

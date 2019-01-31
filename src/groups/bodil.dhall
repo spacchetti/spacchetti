@@ -19,7 +19,7 @@ in  { test-unit =
         mkPackage
         [ "partial", "prelude", "tuples", "typelevel-prelude", "unsafe-coerce" ]
         "https://github.com/bodil/purescript-typelevel.git"
-        "v4.0.0"
+        "v5.0.0"
     , signal =
         mkPackage
         [ "aff", "foldable-traversable", "js-timers", "maybe", "prelude" ]
