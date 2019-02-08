@@ -29,7 +29,7 @@ in  { aff =
         , "web-xhr"
         ]
         "https://github.com/slamdata/purescript-affjax.git"
-        "v7.0.0"
+        "v7.0.1"
     , avar =
         mkPackage
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]

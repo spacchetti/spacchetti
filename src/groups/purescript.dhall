@@ -120,7 +120,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-enums.git"
-        "v4.0.0"
+        "v4.0.1"
     , exceptions =
         mkPackage
         [ "effect", "either", "maybe", "prelude" ]
@@ -322,7 +322,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-ordered-collections.git"
-        "v1.4.0"
+        "v1.5.0"
     , orders =
         mkPackage
         [ "newtype", "prelude" ]
@@ -475,6 +475,7 @@ in  { arrays =
         , "distributive"
         , "effect"
         , "either"
+        , "exceptions"
         , "foldable-traversable"
         , "identity"
         , "lazy"
@@ -486,7 +487,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-transformers.git"
-        "v4.1.0"
+        "v4.2.0"
     , tuples =
         mkPackage
         [ "bifunctors"
