@@ -21,7 +21,7 @@ in  { arrays =
         mkPackage
         [ "console", "effect", "prelude" ]
         "https://github.com/purescript/purescript-assert.git"
-        "v4.0.0"
+        "v4.1.0"
     , bifunctors =
         mkPackage
         [ "newtype", "prelude" ]
@@ -84,7 +84,7 @@ in  { arrays =
         , "tuples"
         ]
         "https://github.com/purescript/purescript-datetime.git"
-        "v4.1.0"
+        "v4.1.1"
     , distributive =
         mkPackage
         [ "identity", "newtype", "prelude" ]
@@ -279,7 +279,7 @@ in  { arrays =
         , "unfoldable"
         ]
         "https://github.com/purescript/purescript-lists.git"
-        "v5.3.0"
+        "v5.4.0"
     , math =
         mkPackage
         ([] : List Text)
