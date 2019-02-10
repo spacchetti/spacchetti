@@ -29,7 +29,7 @@ in  { aff =
         , "web-xhr"
         ]
         "https://github.com/slamdata/purescript-affjax.git"
-        "v7.0.1"
+        "v7.0.2"
     , avar =
         mkPackage
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
@@ -140,7 +140,7 @@ in  { aff =
         , "transformers"
         ]
         "https://github.com/slamdata/purescript-formatters.git"
-        "v4.0.0"
+        "v4.0.1"
     , halogen-bootstrap =
         mkPackage
         [ "halogen" ]
