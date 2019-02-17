@@ -39,7 +39,7 @@ run :: String -> IO ()
 run input' = do
   test <- Dir.doesFileExist file
 
-  when (not test) $ void $ Proc.readCreateProcess downloadJsonCmd ""
+  when (not test) $ void $ readCmd downloadJsonCmd
 
   (exitCode, depsOut, _) <- Proc.readCreateProcessWithExitCode getDeps ""
   dependencies <- case exitCode of
