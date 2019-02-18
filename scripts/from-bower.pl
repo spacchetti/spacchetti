@@ -7,7 +7,7 @@ use FindBin '$RealBin';
 
 =head1 from-bower.pl
 
-This is a script for calling prepare-bower.pl in Spacchetti to add or update a package definition using mkPackage to a package group.
+This is a script for calling prepare-bower.hs in Spacchetti to add or update a package definition using mkPackage to a package group.
 
 See L<the Spachetti repository|https://github.com/spacchetti/spacchetti> for more details.
 
@@ -34,7 +34,7 @@ if ($numArgs < 0) {
 
 my $input = $ARGV[0];
 
-my $result = `perl $RealBin/prepare-bower.pl $input`;
+my $result = `$RealBin/prepare-bower.hs $input`;
 my $matches = $result =~ /.*\/\/.*\/(.*)\//;
 
 if ($matches < 1) {

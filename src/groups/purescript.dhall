@@ -322,7 +322,7 @@ in  { arrays =
         , "unsafe-coerce"
         ]
         "https://github.com/purescript/purescript-ordered-collections.git"
-        "v1.5.0"
+        "v1.6.0"
     , orders =
         mkPackage
         [ "newtype", "prelude" ]

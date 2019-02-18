@@ -29,7 +29,7 @@ getDeps = do
 
 prepareBower :: Dirname -> Dep -> IO ()
 prepareBower (Dirname dirname) (Dep dep) = do
-  let process = Proc.shell $ dirname <> "/prepare-bower.pl " <> dep
+  let process = Proc.shell $ dirname <> "/prepare-bower.hs " <> dep
   _ <- Proc.readCreateProcess process ""
   pure ()
 
