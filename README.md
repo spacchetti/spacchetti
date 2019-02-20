@@ -2,8 +2,6 @@
 
 [![Build Status](https://travis-ci.org/spacchetti/spacchetti.svg?branch=master)](https://travis-ci.org/spacchetti/spacchetti)
 
-[![Build Status](https://dev.azure.com/justinw2/justin-project/_apis/build/status/justinwoo.spacchetti)](https://dev.azure.com/justinw2/justin-project/_build/latest?definitionId=1)
-
 [![Documentation Status](https://readthedocs.org/projects/spacchetti/badge/?version=latest)](https://spacchetti.readthedocs.io/en/latest/?badge=latest)
 
 *Mà, ho comprato una scatola di PureScript!*
@@ -16,32 +14,17 @@ Read the guide for more details on RTD: <https://spacchetti.readthedocs.io/en/la
 
 Read more about how this works here: <https://github.com/justinwoo/my-blog-posts#managing-psc-package-sets-with-dhall>
 
+**Are you looking for Spago? Go here: <https://github.com/spacchetti/spago>**
+
 ## The Raisin Deets
 
 Nobody likes editing JSON. Even fewer actually like figuring out how to resolve conflicts in Git, especially if they aren't used to aborting rebases and digging up commits from reflog. Everyone complains there is no good solution for having your own patches on top of upstream changes, for when you want to add just a few of your own packages or override existing definitions.
 
 Well, now all you have to do is complain that this repo doesn't have enough contributors, commits, maintenance, curation, etc., because those above issues are solved with the usage of Dhall to merge package definitions and Psc-Package verify on CI.
 
-## How to use this package set
+## How to consume this package set
 
-This project requires that you have at least:
-
-* Linux/OSX. I do not support Windows. You will probably be able to do everything using WSL, but I will not support any issues (you will probably barely run into any with WSL). I also assume your distro is from the last decade, any distributions older than 2008 are not supported.
-* [Dhall-Haskell](https://github.com/dhall-lang/dhall-haskell) and [Dhall-JSON](https://github.com/dhall-lang/dhall-json) installed. You can probably install them from Nix or from source.
-* [Psc-Package](https://github.com/purescript/psc-package/) installed, with the release binary in your PATH in some way.
-* [jq](https://github.com/stedolan/jq) installed.
-
-If you use the [nix package manager](https://nixos.org/nix) you can open a shell with all dependencies by using the provided `shell.nix` file:
-
-```
-nix-shell --pure shell.nix
-```
-
-There is also a more minimal shell without the Haskell script dependencies available:
-
-```
-nix-shell --pure -A small shell.nix
-```
+Use [Spago](https://github.com/spacchetti/spago) or Psc-Package.
 
 ### How files are organized
 
@@ -65,11 +48,8 @@ First, test that you can actually run `make`:
 
 ```sh
 > make
-./format.sh
 formatted dhall files
-./generate.sh
 generated to packages.json
-./validate.pl
 validated packages' dependencies
 ```
 
@@ -95,50 +75,23 @@ When you set this up correctly, you will see that running `psc-package install` 
 
 To set up a test project, run `make setup`. Then you can test individual packages with `psc-package verify PACKAGE`.
 
-### Using Perl scripts in this repository
-
-You will only need the following scripts:
-
-* `verify.pl` - to install a given package and validate the entire compiled output.
-
-* `from-bower.pl` - to add/update a package that is registered on Bower.
-
-These each take an argument of a package, e.g. `./update-from-bower.pl behaviors`.
-
-### Using Haskell scripts in this repository
-
-```
-$ nix-shell --pure --run "runhaskell scripts/Prefetch.hs" \
-    | tee hashes.json
-```
-
-Outputs a record of all package’s git repository hashsums, by calling the nix prefetch scripts. Useful for consecutive building of Purescript packages with nix.
-
 ## Further Complaints
 
 PRs welcome.
 
 ## FAQ
 
-### Can I just consume this package set?
+### How do I use this package set?
 
-Yes, but do not expect me to add all of your packages for you. You should see [my post](https://github.com/justinwoo/my-blog-posts#managing-psc-package-sets-with-dhall) about this project or consult the ["local project usage example"](./local-setup.md).
-
-### Don't you maintain purescript/package-sets?
-
-Yes.
-
-### Why should I use this "unofficial" package set?
-
-If you think "official" is a thing, then you shouldn't.
+Use [Spago](https://github.com/spacchetti/spago) or Psc-Package.
 
 ### Can I get additional help?
 
-Probably. Message me in some way (e.g. Twitter, FP Slack, or open an issue) and let's see what the nature of the issue is. If you need a lot of help, you can hire me part time.
+Open an issue in [Spago](https://github.com/spacchetti/spago) or ask on FP Slack.
 
 ### Does ___ in `scripts/` mean ____?
 
-No, these are just garbage scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spago.
+No, these are just random scripts that are used to maintain Spacchetti package sets. They are not used by Psc-Package nor are they used by Spago.
 
 ### Can I use packages from Bower?
 
