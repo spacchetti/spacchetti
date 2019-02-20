@@ -14,7 +14,7 @@ Read the guide for more details on RTD: <https://spacchetti.readthedocs.io/en/la
 
 Read more about how this works here: <https://github.com/justinwoo/my-blog-posts#managing-psc-package-sets-with-dhall>
 
-**Are you looking for Spago? Go here: <https://github.com/spacchetti/spago>**
+## Are you looking for Spago? Go here: <https://github.com/spacchetti/spago>
 
 ## The Raisin Deets
 
