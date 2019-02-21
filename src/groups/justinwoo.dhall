@@ -145,4 +145,9 @@ in  { gomtang-basic =
         [ "prelude", "record" ]
         "https://github.com/justinwoo/purescript-sijidou.git"
         "v0.1.0"
+    , kishimen =
+        mkPackage
+        [ "generics-rep", "prelude", "variant" ]
+        "https://github.com/justinwoo/purescript-kishimen.git"
+        "v0.2.0"
     }
