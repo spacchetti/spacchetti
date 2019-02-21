@@ -846,6 +846,15 @@
     "repo": "https://github.com/justinwoo/purescript-kancho.git",
     "version": "v1.0.0"
   },
+  "kishimen": {
+    "dependencies": [
+      "generics-rep",
+      "prelude",
+      "variant"
+    ],
+    "repo": "https://github.com/justinwoo/purescript-kishimen.git",
+    "version": "v0.2.0"
+  },
   "lazy": {
     "dependencies": [
       "control",
