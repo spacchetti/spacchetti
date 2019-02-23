@@ -24,7 +24,7 @@ in  { gomtang-basic =
         mkPackage
         [ "aff-promise", "foreign-object", "prelude", "typelevel-prelude" ]
         "https://github.com/justinwoo/purescript-milkis.git"
-        "v6.0.1"
+        "v6.1.0"
     , node-he =
         mkPackage
         ([] : List Text)
@@ -58,7 +58,7 @@ in  { gomtang-basic =
         , "variant"
         ]
         "https://github.com/justinwoo/purescript-simple-json.git"
-        "v4.4.0"
+        "v4.4.1"
     , sunde =
         mkPackage
         [ "aff", "effect", "node-child-process", "prelude" ]
