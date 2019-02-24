@@ -984,7 +984,7 @@
       "typelevel-prelude"
     ],
     "repo": "https://github.com/justinwoo/purescript-milkis.git",
-    "version": "v6.0.1"
+    "version": "v6.1.0"
   },
   "minibench": {
     "dependencies": [
@@ -1671,7 +1671,7 @@
       "variant"
     ],
     "repo": "https://github.com/justinwoo/purescript-simple-json.git",
-    "version": "v4.4.0"
+    "version": "v4.4.1"
   },
   "simple-json-generics": {
     "dependencies": [
@@ -2018,14 +2018,14 @@
       "web-html"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-clipboard.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "web-dom": {
     "dependencies": [
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-dom.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "web-events": {
     "dependencies": [
@@ -2034,7 +2034,7 @@
       "nullable"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-events.git",
-    "version": "v1.0.1"
+    "version": "v2.0.0"
   },
   "web-file": {
     "dependencies": [
@@ -2043,7 +2043,7 @@
       "web-dom"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-file.git",
-    "version": "v1.2.0"
+    "version": "v2.0.0"
   },
   "web-html": {
     "dependencies": [
@@ -2053,7 +2053,7 @@
       "web-storage"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-html.git",
-    "version": "v1.2.0"
+    "version": "v2.0.0"
   },
   "web-socket": {
     "dependencies": [
@@ -2061,7 +2061,7 @@
       "web-file"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-socket.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "web-storage": {
     "dependencies": [
@@ -2069,21 +2069,21 @@
       "web-events"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-storage.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "web-touchevents": {
     "dependencies": [
       "web-uievents"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-touchevents.git",
-    "version": "v1.0.0"
+    "version": "v2.0.0"
   },
   "web-uievents": {
     "dependencies": [
       "web-html"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-uievents.git",
-    "version": "v1.1.0"
+    "version": "v2.0.0"
   },
   "web-xhr": {
     "dependencies": [
@@ -2094,7 +2094,7 @@
       "web-file"
     ],
     "repo": "https://github.com/purescript-web/purescript-web-xhr.git",
-    "version": "v2.0.0"
+    "version": "v3.0.0"
   },
   "xiaomian": {
     "dependencies": [
