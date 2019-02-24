@@ -1,4 +1,4 @@
-all: format generate validate
+all: format generate
 
 format:
 	@find src/ -iname "*.dhall" -exec dhall format --inplace {} \;
@@ -9,9 +9,6 @@ generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
 	@psc-package format
 	@echo generated to packages.json
-
-validate:
-	@./scripts/validate.pl
 
 setup: all setup-only
 
