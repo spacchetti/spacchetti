@@ -45,12 +45,6 @@ When you set this up correctly, you will see that running `psc-package install` 
 
 To set up a test project, run `make setup`. Then you can test individual packages with `psc-package verify PACKAGE`.
 
-## Using Perl scripts in this repository
+## Package set maintenance
 
-You will only need the following scripts:
-
-* `verify.pl` - to install a given package and validate the entire compiled output.
-
-* `from-bower.pl` - to add/update a package that is registered on Bower.
-
-These each take an argument of a package, e.g. `./update-from-bower.pl behaviors`.
+If you would like to help maintain Spacchetti, please get in touch with Justin via Twitter: <https://twitter.com/jusrin00>
