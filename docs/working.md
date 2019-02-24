@@ -19,11 +19,9 @@ First, test that you can actually run `make`:
 formatted dhall files
 ./generate.sh
 generated to packages.json
-./validate.pl
-validated packages' dependencies
 ```
 
-This is how you format Dhall files in the project, generate the `packages.json` that needs to be checked in, and validate that all dependencies declared in package definitions are at least valid. Unless you plan to consume only the `packages.dhall` file in your repository, you must check in `packages.json`.
+This is how you format Dhall files in the project and generate the `packages.json` that needs to be checked in. Unless you plan to consume only the `packages.dhall` file in your repository, you must check in `packages.json`.
 
 To actually use your new package set, you must create a new git tag and push it to your **fork of spacchetti**. Then set your package set in your **project** repository accordingly, per EXAMPLE:
 
