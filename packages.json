@@ -47,7 +47,7 @@
       "web-xhr"
     ],
     "repo": "https://github.com/slamdata/purescript-affjax.git",
-    "version": "v7.0.2"
+    "version": "v8.0.0"
   },
   "ansi": {
     "dependencies": [
@@ -359,7 +359,7 @@
       "web-touchevents"
     ],
     "repo": "https://github.com/slamdata/purescript-dom-indexed.git",
-    "version": "v6.0.0"
+    "version": "v7.0.0"
   },
   "effect": {
     "dependencies": [
@@ -1974,7 +1974,7 @@
       "tuples"
     ],
     "repo": "https://github.com/fehrenbach/purescript-unordered-collections.git",
-    "version": "v1.6.0"
+    "version": "v1.7.0"
   },
   "unsafe-coerce": {
     "dependencies": [],
