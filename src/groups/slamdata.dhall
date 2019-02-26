@@ -29,7 +29,7 @@ in  { aff =
         , "web-xhr"
         ]
         "https://github.com/slamdata/purescript-affjax.git"
-        "v7.0.2"
+        "v8.0.0"
     , avar =
         mkPackage
         [ "aff", "effect", "either", "exceptions", "functions", "maybe" ]
@@ -57,7 +57,7 @@ in  { aff =
         mkPackage
         [ "media-types", "prelude", "web-clipboard", "web-touchevents" ]
         "https://github.com/slamdata/purescript-dom-indexed.git"
-        "v6.0.0"
+        "v7.0.0"
     , fork =
         mkPackage
         [ "aff" ]
