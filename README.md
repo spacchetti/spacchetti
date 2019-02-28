@@ -1,3 +1,22 @@
+# DEPRECATION NOTICE
+
+## This repo has been merged into [`purescript/package-sets`](https://github.com/purescript/package-sets)
+
+See [this issue](https://github.com/purescript/package-sets/issues/270) for context.
+
+If you wish to switch to the new upstream and you're using [spago](https://github.com/spacchetti/spago),
+you can just run:
+
+```bash
+$ spago package-set-upgrade
+```
+(note: this will update to the latest published package-set)
+
+<hr>
+<hr>
+<hr>
+
+
 # Spacchetti
 
 [![Build Status](https://travis-ci.org/spacchetti/spacchetti.svg?branch=master)](https://travis-ci.org/spacchetti/spacchetti)
