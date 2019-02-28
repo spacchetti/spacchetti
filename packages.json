@@ -1589,6 +1589,16 @@
     "repo": "https://github.com/purescript/purescript-refs.git",
     "version": "v4.1.0"
   },
+  "remotedata": {
+    "dependencies": [
+      "bifunctors",
+      "either",
+      "generics-rep",
+      "profunctor-lenses"
+    ],
+    "repo": "https://github.com/krisajenkins/purescript-remotedata.git",
+    "version": "v4.0.0"
+  },
   "routing": {
     "dependencies": [
       "aff",

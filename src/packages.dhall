@@ -31,5 +31,6 @@ let packages =
       ⫽ ./groups/thomashoneyman.dhall
       ⫽ ./groups/rnons.dhall
       ⫽ ./groups/justinwoo.dhall
+      ⫽ ./groups/krisajenkins.dhall
 
 in  packages
