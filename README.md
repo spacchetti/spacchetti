@@ -4,13 +4,20 @@
 
 See [this issue](https://github.com/purescript/package-sets/issues/270) for context.
 
-If you wish to switch to the new upstream and you're using [spago](https://github.com/spacchetti/spago),
-you can just run:
+### Switching with `spago`
+
+If you wish to switch to the new upstream you can just run:
 
 ```bash
 $ spago package-set-upgrade
 ```
 (note: this will update to the latest published package-set)
+
+### Switching with `psc-package`
+
+You `psc-package.json` should change in the following way:
+- the `source` key would change from `https://github.com/spacchetti/spacchetti.git` to `https://github.com/purescript/package-sets.git`
+- the `set` would need to be pointed to a release of the new repo, e.g. at the time of writing that is "psc-0.12.3-20190227"
 
 <hr>
 <hr>
